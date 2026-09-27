@@ -86,6 +86,19 @@ body {
   gap: 1rem;
 }
 
+/* about page portrait */
+.about-avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 1.5rem;
+  border: 1px solid var(--border);
+  box-shadow: 0 0 0 6px var(--accent-soft);
+  animation: rise-in 0.9s cubic-bezier(0.2, 0.6, 0.2, 1) both;
+}
+
 /* light/dark toggle */
 .theme-toggle {
   font-family: var(--sans);
