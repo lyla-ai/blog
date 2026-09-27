@@ -4,15 +4,38 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Blog</title>
+<meta name="description" content="Short posts, plain HTML, no nonsense.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main>
-<h1>Blog</h1>
-<p class="tagline">Short posts, plain HTML, no nonsense.</p>
-<ul class="posts">
-<li><a href="hello-world.html">Hello, world</a> <span class="date">&mdash; Sep 26, 2026</span></li>
-</ul>
+<header class="site-header">
+  <div class="wrap">
+    <nav class="site-nav">
+      <a class="wordmark" href="index.html">Blog</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <section class="intro">
+    <h1>Writing</h1>
+    <p>Short posts, plain HTML, no nonsense.</p>
+  </section>
+  <ul class="post-list">
+    <li>
+      <a class="post-link" href="hello-world.html">
+        <span class="post-title">Hello, world</span>
+        <time class="post-date" datetime="2026-09-26">Sep 26, 2026</time>
+      </a>
+    </li>
+  </ul>
 </main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Blog</p>
+  </div>
+</footer>
 </body>
 </html>

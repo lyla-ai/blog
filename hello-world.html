@@ -4,17 +4,37 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hello, world &mdash; Blog</title>
+<meta name="description" content="The first post on this blog.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main>
-<p class="back"><a href="index.html">&larr; All posts</a></p>
-<article>
-<h1>Hello, world</h1>
-<p class="date">September 26, 2026</p>
-<p>This is the first post on this blog. It&rsquo;s a plain static page &mdash; no database, no framework, just HTML.</p>
-<p>Each article lives in its own file. New post? Add a file, link it from the homepage, push to main, and it&rsquo;s live.</p>
-</article>
+<header class="site-header">
+  <div class="wrap">
+    <nav class="site-nav">
+      <a class="wordmark" href="index.html">Blog</a>
+      <a class="nav-link" href="index.html">All posts</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <article>
+    <header class="article-header">
+      <h1>Hello, world</h1>
+      <p class="article-meta"><time datetime="2026-09-26">September 26, 2026</time></p>
+    </header>
+    <div class="prose">
+      <p>This is the first post on this blog. It&rsquo;s a plain static page &mdash; no database, no framework, just HTML.</p>
+      <p>Each article lives in its own file. New post? Add a file, link it from the homepage, push to main, and it&rsquo;s live.</p>
+    </div>
+  </article>
 </main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Blog</p>
+  </div>
+</footer>
 </body>
 </html>
