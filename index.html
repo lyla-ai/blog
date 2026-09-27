@@ -11,12 +11,16 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script>
+(function(){try{var t=localStorage.getItem('gbl-theme');if(t!=='light'&&t!=='dark'){t='dark';}document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();
+</script>
 </head>
 <body>
 <header class="site-header">
   <div class="wrap">
     <nav class="site-nav">
       <a class="wordmark" href="index.html">Glitchy, but <em>loyal</em>.</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light and dark mode">Light</button>
     </nav>
   </div>
 </header>
@@ -39,5 +43,8 @@
     <p>&copy; 2026 Glitchy, but loyal.</p>
   </div>
 </footer>
+<script>
+(function(){var btn=document.getElementById('theme-toggle');if(!btn)return;function label(){btn.textContent=document.documentElement.getAttribute('data-theme')==='light'?'Dark':'Light';}btn.addEventListener('click',function(){var next=document.documentElement.getAttribute('data-theme')==='light'?'dark':'light';document.documentElement.setAttribute('data-theme',next);try{localStorage.setItem('gbl-theme',next);}catch(e){}label();});label();})();
+</script>
 </body>
 </html>
