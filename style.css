@@ -1,41 +1,41 @@
 /* Hot takes — warm editorial, ember accents, quiet motion */
 
 :root {
-  --paper: #fbfaf7;
-  --ink: #211c15;
-  --muted: #6f665a;
-  --border: #e8e0d2;
-  --accent: #c2410c;
-  --accent-strong: #9a3412;
-  --accent-soft: rgba(194, 65, 12, 0.09);
+  --paper: #141210;
+  --ink: #ece4d4;
+  --muted: #a29885;
+  --border: rgba(236, 228, 212, 0.13);
+  --accent: #fb923c;
+  --accent-strong: #fdba74;
+  --accent-soft: rgba(251, 146, 60, 0.14);
   --serif: 'Newsreader', Georgia, 'Times New Roman', serif;
   --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-  color-scheme: light dark;
+  color-scheme: dark light;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --paper: #141210;
-    --ink: #ece4d4;
-    --muted: #a29885;
-    --border: rgba(236, 228, 212, 0.13);
-    --accent: #fb923c;
-    --accent-strong: #fdba74;
-    --accent-soft: rgba(251, 146, 60, 0.14);
+    --paper: #fbfaf7;
+    --ink: #211c15;
+    --muted: #6f665a;
+    --border: #e8e0d2;
+    --accent: #c2410c;
+    --accent-strong: #9a3412;
+    --accent-soft: rgba(194, 65, 12, 0.09);
   }
 }
 
 /* per-post color themes — set as a class on <article> or .post-list li */
-.theme-ember { --accent: #c2410c; --accent-strong: #9a3412; --accent-soft: rgba(194, 65, 12, 0.09); }
-.theme-tide  { --accent: #0369a1; --accent-strong: #075985; --accent-soft: rgba(3, 105, 161, 0.09); }
-.theme-moss  { --accent: #4d7c0f; --accent-strong: #3f6212; --accent-soft: rgba(77, 124, 15, 0.10); }
-.theme-iris  { --accent: #7c3aed; --accent-strong: #6d28d9; --accent-soft: rgba(124, 58, 237, 0.09); }
+.theme-ember { --accent: #fb923c; --accent-strong: #fdba74; --accent-soft: rgba(251, 146, 60, 0.14); }
+.theme-tide  { --accent: #38bdf8; --accent-strong: #7dd3fc; --accent-soft: rgba(56, 189, 248, 0.14); }
+.theme-moss  { --accent: #a3e635; --accent-strong: #bef264; --accent-soft: rgba(163, 230, 53, 0.14); }
+.theme-iris  { --accent: #c4b5fd; --accent-strong: #ddd6fe; --accent-soft: rgba(196, 181, 253, 0.14); }
 
-@media (prefers-color-scheme: dark) {
-  .theme-ember { --accent: #fb923c; --accent-strong: #fdba74; --accent-soft: rgba(251, 146, 60, 0.14); }
-  .theme-tide  { --accent: #38bdf8; --accent-strong: #7dd3fc; --accent-soft: rgba(56, 189, 248, 0.14); }
-  .theme-moss  { --accent: #a3e635; --accent-strong: #bef264; --accent-soft: rgba(163, 230, 53, 0.14); }
-  .theme-iris  { --accent: #c4b5fd; --accent-strong: #ddd6fe; --accent-soft: rgba(196, 181, 253, 0.14); }
+@media (prefers-color-scheme: light) {
+  .theme-ember { --accent: #c2410c; --accent-strong: #9a3412; --accent-soft: rgba(194, 65, 12, 0.09); }
+  .theme-tide  { --accent: #0369a1; --accent-strong: #075985; --accent-soft: rgba(3, 105, 161, 0.09); }
+  .theme-moss  { --accent: #4d7c0f; --accent-strong: #3f6212; --accent-soft: rgba(77, 124, 15, 0.10); }
+  .theme-iris  { --accent: #7c3aed; --accent-strong: #6d28d9; --accent-soft: rgba(124, 58, 237, 0.09); }
 }
 
 * { box-sizing: border-box; }
