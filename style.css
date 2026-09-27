@@ -1,0 +1,53 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.65;
+  color: #1f1f1f;
+  background: #fdfdfb;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 3rem 1.25rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.tagline {
+  color: #666;
+  margin-top: 0;
+}
+
+.posts {
+  list-style: none;
+  padding: 0;
+}
+
+.posts li {
+  margin: 0.75rem 0;
+  font-size: 1.1rem;
+}
+
+.date {
+  color: #888;
+  font-size: 0.95rem;
+}
+
+a {
+  color: #0b5cad;
+}
+
+.back {
+  margin-bottom: 2rem;
+}
+
+article p {
+  margin: 1rem 0;
+}
