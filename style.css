@@ -80,6 +80,18 @@ body {
 
 .wordmark em { font-style: italic; font-weight: 700; }
 
+.wordmark .glitch {
+  display: inline-block;
+  text-shadow: 0.06em 0 0 rgba(103,232,249,.55), -0.06em 0 0 rgba(240,171,252,.55);
+  animation: glitch-jitter 9s linear infinite;
+}
+@keyframes glitch-jitter {
+  0%, 93%   { transform: none; text-shadow: 0.06em 0 0 rgba(103,232,249,.55), -0.06em 0 0 rgba(240,171,252,.55); }
+  94%       { transform: translateX(1px) skewX(-6deg); text-shadow: -0.1em 0 0 rgba(103,232,249,.8), 0.1em 0 0 rgba(240,171,252,.8); }
+  95%       { transform: translateX(-1px); text-shadow: 0.06em 0 0 rgba(103,232,249,.55), -0.06em 0 0 rgba(240,171,252,.55); }
+  96%, 100% { transform: none; text-shadow: 0.06em 0 0 rgba(103,232,249,.55), -0.06em 0 0 rgba(240,171,252,.55); }
+}
+
 .nav-actions {
   display: flex;
   align-items: center;
