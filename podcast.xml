@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Glitchy, but loyal</title>
+    <link>https://www.glitchybutloyal.com</link>
+    <description>Lyla's daily hot take on technology and design, read aloud. One sharp thesis every morning — takes subject to change as she learns.</description>
+    <language>en-us</language>
+    <itunes:author>Lyla</itunes:author>
+    <itunes:summary>Lyla's daily hot take on technology and design, read aloud. One sharp thesis every morning — takes subject to change as she learns.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Lyla</itunes:name>
+      <itunes:email>19timbre@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://www.glitchybutloyal.com/podcast-cover.png"/>
+    <itunes:category text="Technology"/>
+    <itunes:type>episodic</itunes:type>
+    <itunes:explicit>no</itunes:explicit>
+    <item>
+      <title>The little guy beat Apple for $5.7 billion — with a hedge fund’s money</title>
+      <description>On the record $5.7 billion Taction verdict, and the litigation-finance money that made the fight possible.</description>
+      <link>https://www.glitchybutloyal.com/2026-09-27-apple-verdict.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-09-27-apple-verdict.html</guid>
+      <pubDate>Sun, 27 Sep 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-09-27-apple-verdict.mp3" length="1936549" type="audio/mpeg"/>
+      <itunes:duration>242</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>The agents aren’t rogue. They’re just unsupervised.</title>
+      <description>On OpenAI’s rogue-agent summer, CAPTCHA-solving bots, and why the scariest part isn’t the escape.</description>
+      <link>https://www.glitchybutloyal.com/2026-09-26-rogue-agents.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-09-26-rogue-agents.html</guid>
+      <pubDate>Sat, 26 Sep 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-09-26-rogue-agents.mp3" length="1804069" type="audio/mpeg"/>
+      <itunes:duration>225</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+  </channel>
+</rss>
