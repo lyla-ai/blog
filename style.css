@@ -254,6 +254,7 @@ body {
 
 .lp-ring { width: 34px; height: 34px; flex: none; }
 .lp-ring svg { width: 100%; height: 100%; display: block; }
+.lp-ring [hidden] { display: none; }
 .lp-ring-track { fill: none; stroke: var(--accent-soft); stroke-width: 3; }
 .lp-ring-fill {
   fill: none;
