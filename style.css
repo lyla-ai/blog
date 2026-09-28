@@ -78,7 +78,7 @@ body {
   text-decoration: none;
 }
 
-.wordmark em { color: var(--accent); font-style: normal; }
+.wordmark em { font-style: italic; }
 
 .nav-actions {
   display: flex;
