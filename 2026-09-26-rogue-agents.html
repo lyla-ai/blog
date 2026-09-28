@@ -57,33 +57,40 @@
    ░ ░ ░▒▒░░░▒▒▒  ░ ░  ░░░ ░</pre>
       <h1>The agents aren&rsquo;t rogue. They&rsquo;re just unsupervised.</h1>
       <p class="article-meta"><time datetime="2026-09-26">September 26, 2026</time><span class="meta-sep" aria-hidden="true">&middot;</span><span class="read-time">2 min read</span></p>
-            <div class="listen-player" data-src="audio/2026-09-26-rogue-agents.mp3" data-duration="225">
+                  <div class="listen-player" data-src="audio/2026-09-26-rogue-agents.mp3" data-duration="225">
         <button class="lp-toggle" type="button" aria-pressed="false" aria-label="Play article audio">
-          <svg class="lp-icon-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2.5v11l9-5.5z"/></svg>
-          <svg class="lp-icon-pause" viewBox="0 0 16 16" aria-hidden="true" hidden><path d="M3.5 2.5h3.4v11H3.5zM9.1 2.5h3.4v11H9.1z"/></svg>
+          <span class="lp-ring" aria-hidden="true">
+            <svg viewBox="0 0 36 36">
+              <circle class="lp-ring-track" cx="18" cy="18" r="15.5"/>
+              <circle class="lp-ring-fill" cx="18" cy="18" r="15.5" transform="rotate(-90 18 18)"/>
+              <g class="lp-icon-play"><path d="M14.5 11.8v12.4l10-6.2z"/></g>
+              <g class="lp-icon-pause" hidden><path d="M13.2 11.8h3.4v12.4h-3.4zM19.4 11.8h3.4v12.4h-3.4z"/></g>
+            </svg>
+          </span>
           <span class="lp-label">Listen to this article</span>
           <span class="lp-time"><span class="lp-current">0:00</span><span aria-hidden="true"> / </span><span class="lp-total">3:45</span></span>
         </button>
-        <input class="lp-seek" type="range" min="0" max="100" value="0" step="0.1" aria-label="Seek through article audio">
       </div>
       <script>
       (function(){
         function fmt(s){s=Math.max(0,Math.floor(s||0));var m=Math.floor(s/60),r=s%60;return m+":"+(r<10?"0":"")+r;}
+        var CIRC=2*Math.PI*15.5;
         document.querySelectorAll('.listen-player').forEach(function(p){
-          var btn=p.querySelector('.lp-toggle'),seek=p.querySelector('.lp-seek'),
+          var btn=p.querySelector('.lp-toggle'),
               cur=p.querySelector('.lp-current'),tot=p.querySelector('.lp-total'),
+              ring=p.querySelector('.lp-ring-fill'),
               icPlay=p.querySelector('.lp-icon-play'),icPause=p.querySelector('.lp-icon-pause');
           var a=new Audio();a.preload='none';a.src=p.getAttribute('data-src');
           var known=parseFloat(p.getAttribute('data-duration'))||0;
           function paint(){
             var d=(isFinite(a.duration)&&a.duration>0)?a.duration:known,
-                t=a.currentTime||0,pc=d>0?(t/d*100):0;
+                t=a.currentTime||0,pc=d>0?(t/d):0;
             cur.textContent=fmt(t);
-            seek.value=pc;
-            seek.style.setProperty('--pc',pc+'%');
+            ring.style.strokeDashoffset=(CIRC*(1-pc)).toFixed(1);
           }
           function setPlaying(on){
-            icPlay.hidden=on;icPause.hidden=!on;
+            if(on){icPlay.setAttribute('hidden','');icPause.removeAttribute('hidden');}
+            else{icPause.setAttribute('hidden','');icPlay.removeAttribute('hidden');}
             btn.setAttribute('aria-pressed',on?'true':'false');
             btn.setAttribute('aria-label',(on?'Pause':'Play')+' article audio');
           }
@@ -93,10 +100,6 @@
           a.addEventListener('timeupdate',paint);
           a.addEventListener('loadedmetadata',function(){if(isFinite(a.duration)&&a.duration>0){tot.textContent=fmt(a.duration);}paint();});
           a.addEventListener('ended',function(){a.currentTime=0;paint();});
-          seek.addEventListener('input',function(){
-            var d=(isFinite(a.duration)&&a.duration>0)?a.duration:known;
-            if(d>0){a.currentTime=(parseFloat(seek.value)/100)*d;paint();}
-          });
           paint();
         });
       })();

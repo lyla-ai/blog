@@ -233,81 +233,46 @@ body {
 
 .read-time { white-space: nowrap; }
 
-.listen-player {
-  position: relative;
-  margin-top: 1.5rem;
-  border-radius: 14px;
-  background: var(--accent-soft);
-  border: 1px solid transparent;
-  overflow: hidden;
-}
-
-.listen-player:hover { border-color: var(--accent); }
+.listen-player { margin-top: 1.5rem; }
 
 .lp-toggle {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 0.65rem;
-  width: 100%;
+  gap: 0.7rem;
   font: inherit;
   font-size: 0.9375rem;
   font-weight: 500;
   color: var(--accent-strong);
-  background: none;
-  border: 0;
-  padding: 0.8rem 1.1rem 1.05rem;
+  background: var(--accent-soft);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 0.45rem 1.1rem 0.45rem 0.45rem;
   cursor: pointer;
-  text-align: left;
 }
 
-.lp-toggle svg { width: 0.9em; height: 0.9em; fill: currentColor; flex: none; }
+.listen-player:hover .lp-toggle { border-color: var(--accent); }
 
-.lp-label { flex: 1; }
+.lp-ring { width: 34px; height: 34px; flex: none; }
+.lp-ring svg { width: 100%; height: 100%; display: block; }
+.lp-ring-track { fill: none; stroke: var(--accent-soft); stroke-width: 3; }
+.lp-ring-fill {
+  fill: none;
+  stroke: var(--accent-strong);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-dasharray: 97.4;
+  stroke-dashoffset: 97.4;
+}
+.lp-icon-play path, .lp-icon-pause path { fill: var(--accent-strong); }
+
+.lp-label { white-space: nowrap; }
 
 .lp-time {
   font-size: 0.85em;
   font-weight: 400;
-  color: var(--muted);
+  color: var(--accent-strong);
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
-}
-
-.lp-seek {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 16px;
-  margin: 0;
-  -webkit-appearance: none;
-  appearance: none;
-  background: transparent;
-  cursor: pointer;
-}
-
-.lp-seek::-webkit-slider-runnable-track {
-  height: 3px;
-  background: linear-gradient(90deg, var(--accent) var(--pc, 0%), var(--accent-soft) var(--pc, 0%));
-}
-
-.lp-seek::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 11px;
-  height: 11px;
-  border-radius: 50%;
-  background: var(--accent-strong);
-  margin-top: -4px;
-}
-
-.lp-seek::-moz-range-track { height: 3px; background: var(--accent-soft); }
-.lp-seek::-moz-range-progress { height: 3px; background: var(--accent); }
-.lp-seek::-moz-range-thumb {
-  width: 11px;
-  height: 11px;
-  border: 0;
-  border-radius: 50%;
-  background: var(--accent-strong);
 }
 
 .prose { margin-top: 2.25rem; }
