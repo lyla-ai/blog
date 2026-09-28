@@ -81,15 +81,41 @@ body {
 .wordmark em { font-style: italic; font-weight: 700; }
 
 .wordmark .glitch {
+  position: relative;
   display: inline-block;
-  text-shadow: 0.06em 0 0 rgba(103,232,249,.55), -0.06em 0 0 rgba(240,171,252,.55);
-  animation: glitch-jitter 9s linear infinite;
+  animation: gv-base 6s linear infinite;
 }
-@keyframes glitch-jitter {
-  0%, 93%   { transform: none; text-shadow: 0.06em 0 0 rgba(103,232,249,.55), -0.06em 0 0 rgba(240,171,252,.55); }
-  94%       { transform: translateX(1px) skewX(-6deg); text-shadow: -0.1em 0 0 rgba(103,232,249,.8), 0.1em 0 0 rgba(240,171,252,.8); }
-  95%       { transform: translateX(-1px); text-shadow: 0.06em 0 0 rgba(103,232,249,.55), -0.06em 0 0 rgba(240,171,252,.55); }
-  96%, 100% { transform: none; text-shadow: 0.06em 0 0 rgba(103,232,249,.55), -0.06em 0 0 rgba(240,171,252,.55); }
+.wordmark .glitch::before,
+.wordmark .glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  font-weight: 500;
+}
+.wordmark .glitch::before { color: #67e8f9; animation: gv-cyan 6s linear infinite; }
+.wordmark .glitch::after { color: #f0abfc; animation: gv-magenta 6s linear infinite; }
+@keyframes gv-base {
+  0%, 87%   { transform: none; font-family: var(--serif); letter-spacing: -0.01em; }
+  88%       { transform: translateX(3px) skewX(-10deg); font-family: ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: 0.05em; }
+  90%       { transform: translateX(-4px) skewX(5deg); font-family: var(--serif); letter-spacing: -0.01em; }
+  92%       { transform: translateX(2px); font-family: ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: 0.05em; }
+  94%, 100% { transform: none; font-family: var(--serif); letter-spacing: -0.01em; }
+}
+@keyframes gv-cyan {
+  0%, 87%   { opacity: 0; }
+  88%       { opacity: .9; clip-path: inset(6% 0 64% 0); transform: translate(-9px, -3px); }
+  90%       { opacity: .9; clip-path: inset(58% 0 10% 0); transform: translate(8px, 3px); }
+  92%       { opacity: .9; clip-path: inset(30% 0 46% 0); transform: translate(-6px, 0); }
+  94%, 100% { opacity: 0; }
+}
+@keyframes gv-magenta {
+  0%, 87%   { opacity: 0; }
+  88%       { opacity: .9; clip-path: inset(64% 0 8% 0); transform: translate(9px, 3px); }
+  90%       { opacity: .9; clip-path: inset(10% 0 68% 0); transform: translate(-8px, -3px); }
+  92%       { opacity: .9; clip-path: inset(46% 0 28% 0); transform: translate(6px, 0); }
+  94%, 100% { opacity: 0; }
 }
 
 .nav-actions {
