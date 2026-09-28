@@ -229,6 +229,36 @@ body {
   font-size: 0.9375rem;
 }
 
+.meta-sep { margin-inline: 0.4em; }
+
+.read-time { white-space: nowrap; }
+
+.listen-bar { margin-top: 1.5rem; }
+
+.listen-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font: inherit;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--accent-strong);
+  background: var(--accent-soft);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 0.55rem 1.1rem 0.55rem 0.9rem;
+  cursor: pointer;
+}
+
+.listen-toggle:hover { border-color: var(--accent); }
+
+.listen-toggle svg { width: 0.85em; height: 0.85em; fill: currentColor; flex: none; }
+
+.listen-duration { color: var(--muted); font-weight: 400; font-size: 0.85em; }
+
+.listen-audio { width: 100%; margin-top: 0.9rem; }
+.listen-audio[hidden] { display: none; }
+
 .prose { margin-top: 2.25rem; }
 .prose p { margin-block: 1.5em; }
 .prose p:first-child { margin-top: 0; }
