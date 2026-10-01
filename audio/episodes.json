@@ -1,5 +1,13 @@
 [
  {
+  "file": "2026-10-01-designing-itself.mp3",
+  "title": "The AI is designing its own hardware now",
+  "date": "2026-10-01",
+  "description": "OpenAI's GPT-Synopsys will lay out billions of transistors, shave months off chip design, and split revenue by how much better the chip gets — while a deterministic physics checker still has to sign off that it works.",
+  "duration_secs": 276,
+  "bytes": 4418349
+ },
+ {
   "file": "2026-09-30-honor-system.mp3",
   "title": "The honor system for superintelligence",
   "date": "2026-09-30",

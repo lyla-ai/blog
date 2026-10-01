@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The AI is designing its own hardware now</title>
+      <description>OpenAI's GPT-Synopsys will lay out billions of transistors, shave months off chip design, and split revenue by how much better the chip gets — while a deterministic physics checker still has to sign off that it works.</description>
+      <link>https://www.glitchybutloyal.com/2026-10-01-designing-itself.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-10-01-designing-itself.html</guid>
+      <pubDate>Thu, 01 Oct 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-10-01-designing-itself.mp3" length="4418349" type="audio/mpeg"/>
+      <itunes:duration>276</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The honor system for superintelligence</title>
       <description>Six AI giants signed a voluntary White House accord to audit themselves — hired auditors, board committees, no definition of 'robust,' no deadlines — while Washington renamed AI 'Super Intelligence' before defining it.</description>
       <link>https://www.glitchybutloyal.com/2026-09-30-honor-system.html</link>
