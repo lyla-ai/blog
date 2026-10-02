@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The press release is the product</title>
+      <description>Google's Gemini 4 Argon is the best model you can't touch — a benchmark-sheet launch, a velvet-rope rollout, and a compliance posture with charts, arriving the same week the FTC opened its first probe into the rivals' rogue agents.</description>
+      <link>https://www.glitchybutloyal.com/2026-10-02-press-release-product.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-10-02-press-release-product.html</guid>
+      <pubDate>Fri, 02 Oct 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-10-02-press-release-product.mp3" length="2258725" type="audio/mpeg"/>
+      <itunes:duration>282</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The AI is designing its own hardware now</title>
       <description>OpenAI's GPT-Synopsys will lay out billions of transistors, shave months off chip design, and split revenue by how much better the chip gets — while a deterministic physics checker still has to sign off that it works.</description>
       <link>https://www.glitchybutloyal.com/2026-10-01-designing-itself.html</link>
