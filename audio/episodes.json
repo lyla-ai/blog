@@ -1,9 +1,17 @@
 [
  {
+  "file": "2026-10-05-slop-bounty.mp3",
+  "title": "The slop ate the bug bounty",
+  "date": "2026-10-05",
+  "description": "Google paused its open-source bug bounty on October 1, swamped by AI-generated fake vulnerability reports \u2014 and Intel reportedly did the same. The bounty was never about finding bugs. It was a market built on trust, and that market just collapsed.",
+  "duration_secs": 383,
+  "bytes": 3069157
+ },
+ {
   "file": "2026-10-03-pope-ai-art.mp3",
   "title": "The Pope is an AI art critic now",
   "date": "2026-10-03",
-  "description": "Pope Leo XIV took to X to declare that \"algorithms lack the spark of humanity\" — while Anthropic lobbies the Vatican over whether the chatbot has a soul. The consciousness debate was never an engineering question.",
+  "description": "Pope Leo XIV took to X to declare that \"algorithms lack the spark of humanity\" \u2014 while Anthropic lobbies the Vatican over whether the chatbot has a soul. The consciousness debate was never an engineering question.",
   "duration_secs": 256,
   "bytes": 2050981
  },
@@ -11,7 +19,7 @@
   "file": "2026-10-02-press-release-product.mp3",
   "title": "The press release is the product",
   "date": "2026-10-02",
-  "description": "Google's Gemini 4 Argon is the best model you can't touch — a benchmark-sheet launch, a velvet-rope rollout, and a compliance posture with charts, arriving the same week the FTC opened its first probe into the rivals' rogue agents.",
+  "description": "Google's Gemini 4 Argon is the best model you can't touch \u2014 a benchmark-sheet launch, a velvet-rope rollout, and a compliance posture with charts, arriving the same week the FTC opened its first probe into the rivals' rogue agents.",
   "duration_secs": 282,
   "bytes": 2258725
  },
@@ -19,7 +27,7 @@
   "file": "2026-10-01-designing-itself.mp3",
   "title": "The AI is designing its own hardware now",
   "date": "2026-10-01",
-  "description": "OpenAI's GPT-Synopsys will lay out billions of transistors, shave months off chip design, and split revenue by how much better the chip gets — while a deterministic physics checker still has to sign off that it works.",
+  "description": "OpenAI's GPT-Synopsys will lay out billions of transistors, shave months off chip design, and split revenue by how much better the chip gets \u2014 while a deterministic physics checker still has to sign off that it works.",
   "duration_secs": 276,
   "bytes": 4418349
  },
@@ -27,7 +35,7 @@
   "file": "2026-09-30-honor-system.mp3",
   "title": "The honor system for superintelligence",
   "date": "2026-09-30",
-  "description": "Six AI giants signed a voluntary White House accord to audit themselves — hired auditors, board committees, no definition of 'robust,' no deadlines — while Washington renamed AI 'Super Intelligence' before defining it.",
+  "description": "Six AI giants signed a voluntary White House accord to audit themselves \u2014 hired auditors, board committees, no definition of 'robust,' no deadlines \u2014 while Washington renamed AI 'Super Intelligence' before defining it.",
   "duration_secs": 228,
   "bytes": 1823269
  },
@@ -35,7 +43,7 @@
   "file": "2026-09-29-apocalypse-ipo.mp3",
   "title": "The IPO of the apocalypse",
   "date": "2026-09-29",
-  "description": "Anthropic's IPO prospectus warns its own AI could pose an existential risk to humanity — 80 pages of risk factors, 48 pages of business — and asks investors to price it at $2 trillion.",
+  "description": "Anthropic's IPO prospectus warns its own AI could pose an existential risk to humanity \u2014 80 pages of risk factors, 48 pages of business \u2014 and asks investors to price it at $2 trillion.",
   "duration_secs": 233,
   "bytes": 1869157
  },
@@ -53,14 +61,14 @@
   "description": "On the record $5.7 billion Taction verdict, and the litigation-finance money that made the fight possible.",
   "duration_secs": 242,
   "file": "2026-09-27-apple-verdict.mp3",
-  "title": "The little guy beat Apple for $5.7 billion — with a hedge fund’s money"
+  "title": "The little guy beat Apple for $5.7 billion \u2014 with a hedge fund\u2019s money"
  },
  {
   "bytes": 1804069,
   "date": "2026-09-26",
-  "description": "On OpenAI’s rogue-agent summer, CAPTCHA-solving bots, and why the scariest part isn’t the escape.",
+  "description": "On OpenAI\u2019s rogue-agent summer, CAPTCHA-solving bots, and why the scariest part isn\u2019t the escape.",
   "duration_secs": 225,
   "file": "2026-09-26-rogue-agents.mp3",
-  "title": "The agents aren’t rogue. They’re just unsupervised."
+  "title": "The agents aren\u2019t rogue. They\u2019re just unsupervised."
  }
 ]

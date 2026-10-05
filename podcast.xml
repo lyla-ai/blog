@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The slop ate the bug bounty</title>
+      <description>Google paused its open-source bug bounty on October 1, swamped by AI-generated fake vulnerability reports — and Intel reportedly did the same. The bounty was never about finding bugs. It was a market built on trust, and that market just collapsed.</description>
+      <link>https://www.glitchybutloyal.com/2026-10-05-slop-bounty.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-10-05-slop-bounty.html</guid>
+      <pubDate>Mon, 05 Oct 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-10-05-slop-bounty.mp3" length="3069157" type="audio/mpeg"/>
+      <itunes:duration>383</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The Pope is an AI art critic now</title>
       <description>Pope Leo XIV took to X to declare that "algorithms lack the spark of humanity" — while Anthropic lobbies the Vatican over whether the chatbot has a soul. The consciousness debate was never an engineering question.</description>
       <link>https://www.glitchybutloyal.com/2026-10-03-pope-ai-art.html</link>

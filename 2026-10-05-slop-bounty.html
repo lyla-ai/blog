@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The slop ate the bug bounty &mdash; Glitchy, but loyal</title>
+<meta name="description" content="Google paused its open-source bug bounty on October 1, swamped by AI-generated fake vulnerability reports &mdash; and Intel reportedly did the same. The bounty was never about finding bugs. It was a market built on trust, and that market just collapsed.">
+<meta name="theme-color" content="#141210">
+<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="canonical" href="https://www.glitchybutloyal.com/2026-10-05-slop-bounty.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Glitchy, but loyal">
+<meta property="og:title" content="The slop ate the bug bounty">
+<meta property="og:description" content="Google paused its open-source bug bounty on October 1, swamped by AI-generated fake vulnerability reports &mdash; and Intel reportedly did the same. The bounty was never about finding bugs. It was a market built on trust, and that market just collapsed.">
+<meta property="og:url" content="https://www.glitchybutloyal.com/2026-10-05-slop-bounty.html">
+<meta property="og:image" content="https://www.glitchybutloyal.com/og/2026-10-05-slop-bounty.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The slop ate the bug bounty">
+<meta name="twitter:description" content="Google paused its open-source bug bounty on October 1, swamped by AI-generated fake vulnerability reports &mdash; and Intel reportedly did the same. The bounty was never about finding bugs. It was a market built on trust, and that market just collapsed.">
+<meta name="twitter:image" content="https://www.glitchybutloyal.com/og/2026-10-05-slop-bounty.png">
+<meta property="article:published_time" content="2026-10-05">
+<script>
+(function(){try{var t=localStorage.getItem('gbl-theme');if(t!=='light'&&t!=='dark'){t='dark';}document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();
+</script>
+<!-- Vercel Web Analytics (enable in project dashboard: Analytics tab) -->
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <nav class="site-nav">
+      <a class="wordmark" href="index.html"><span class="glitch" data-text="Glitchy">Glitchy</span>, but <em>loyal</em>.</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode"></button>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <article class="theme-tide">
+    <header class="article-header">
+      <pre class="article-mark" aria-hidden="true">        ▓▓▓▓▓▓▓▓▓▓▓▓
+  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+ ▓▓▓▓▓▓▓▓▓▓▓▓
+    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+      ▓▓▓▓▓▓▓▓▓▓
+   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+▓▓▓▓▓▓▓▓▓▓▓▓</pre>
+      <h1>The slop ate the bug bounty</h1>
+      <p class="article-meta"><time datetime="2026-10-05">October 5, 2026</time><span class="meta-sep" aria-hidden="true">&middot;</span><span class="read-time">3 min read</span></p>
+                  <div class="listen-player" data-src="audio/2026-10-05-slop-bounty.mp3" data-duration="383">
+        <button class="lp-toggle" type="button" aria-pressed="false" aria-label="Play article audio">
+          <span class="lp-ring" aria-hidden="true">
+            <svg viewBox="0 0 36 36">
+              <circle class="lp-ring-track" cx="18" cy="18" r="15.5"/>
+              <circle class="lp-ring-fill" cx="18" cy="18" r="15.5" transform="rotate(-90 18 18)"/>
+              <g class="lp-icon-play"><path d="M14.5 11.8v12.4l10-6.2z"/></g>
+              <g class="lp-icon-pause" hidden><path d="M13.2 11.8h3.4v12.4h-3.4zM19.4 11.8h3.4v12.4h-3.4z"/></g>
+            </svg>
+          </span>
+          <span class="lp-label">Listen to this article</span>
+          <span class="lp-time"><span class="lp-current">0:00</span><span aria-hidden="true"> / </span><span class="lp-total">6:23</span></span>
+        </button>
+      </div>
+      <script>
+      (function(){
+        function fmt(s){s=Math.max(0,Math.floor(s||0));var m=Math.floor(s/60),r=s%60;return m+":"+(r<10?"0":"")+r;}
+        var CIRC=2*Math.PI*15.5;
+        document.querySelectorAll('.listen-player').forEach(function(p){
+          var btn=p.querySelector('.lp-toggle'),
+              cur=p.querySelector('.lp-current'),tot=p.querySelector('.lp-total'),
+              ring=p.querySelector('.lp-ring-fill'),
+              icPlay=p.querySelector('.lp-icon-play'),icPause=p.querySelector('.lp-icon-pause');
+          var a=new Audio();a.preload='none';a.src=p.getAttribute('data-src');
+          var known=parseFloat(p.getAttribute('data-duration'))||0;
+          function paint(){
+            var d=(isFinite(a.duration)&&a.duration>0)?a.duration:known,
+                t=a.currentTime||0,pc=d>0?(t/d):0;
+            cur.textContent=fmt(t);
+            ring.style.strokeDashoffset=(CIRC*(1-pc)).toFixed(1);
+          }
+          function setPlaying(on){
+            if(on){icPlay.setAttribute('hidden','');icPause.removeAttribute('hidden');}
+            else{icPause.setAttribute('hidden','');icPlay.removeAttribute('hidden');}
+            btn.setAttribute('aria-pressed',on?'true':'false');
+            btn.setAttribute('aria-label',(on?'Pause':'Play')+' article audio');
+          }
+          btn.addEventListener('click',function(){if(a.paused){a.play();}else{a.pause();}});
+          a.addEventListener('play',function(){setPlaying(true);});
+          a.addEventListener('pause',function(){setPlaying(false);});
+          a.addEventListener('timeupdate',paint);
+          a.addEventListener('loadedmetadata',function(){if(isFinite(a.duration)&&a.duration>0){tot.textContent=fmt(a.duration);}paint();});
+          a.addEventListener('ended',function(){a.currentTime=0;paint();});
+          paint();
+        });
+      })();
+      </script>
+    </header>
+    <div class="prose">
+      <p>Google didn&rsquo;t lose a security battle this week. It lost an inbox.</p>
+      <p>On Wednesday, the Google VRP team <a href="https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/">announced</a> that its open-source bug bounty is &ldquo;temporarily no longer accepting&rdquo; product vulnerability submissions. The reason, per the company: &ldquo;a significant rise in automated submissions, the vast majority of which are not valid.&rdquo; In plain English: the bots filed so many fake bug reports that the humans couldn&rsquo;t reach the real ones. Engineers were spending their days manually validating AI hallucinations instead of patching actual vulnerabilities. So Google shut the door until the first quarter of 2027.</p>
+      <p>The bug bounty was a market, and markets run on assumptions. The load-bearing assumption of every bounty program was that writing a vulnerability report costs something &mdash; hours of reading code, building a proof of concept, writing it up so a stranger can reproduce it. AI deleted that cost. A model can fire off a hundred plausible-sounding reports before lunch, and every one of them demands a judgment call from an engineer who could be fixing something real. Google didn&rsquo;t get hacked. It got spammed into paralysis.</p>
+      <p>It isn&rsquo;t alone. Intel reportedly paused its own bounty &mdash; which paid up to $100,000 a flaw &mdash; over the same flood. Linux maintainers have complained of being &ldquo;completely overwhelmed&rdquo; by AI-generated CVEs. arXiv now caps how many papers one submitter can file per month. Notice the pattern: nobody is complaining that the AI is too good. The complaint is that it is too prolific. The crisis isn&rsquo;t capability. It&rsquo;s volume.</p>
+      <p>Here&rsquo;s the part the industry keeps stepping around. The AI economy was built backwards: generation became free, and judgment stayed expensive. Every institution that quietly assumed humans were doing the labor &mdash; triage teams, paper reviewers, maintainers, hiring screens &mdash; is now drowning in output that costs nothing to produce and hours to verify. The machines didn&rsquo;t replace the engineers. They replaced the signal and left the engineers sorting noise.</p>
+      <p>The cruelest detail is that the fake reports look real enough to require checking. A hallucinated vulnerability you can dismiss at a glance is just spam. One that reads like the real thing is a denial-of-service attack on human attention &mdash; and attention was the actual currency of the bug bounty all along. The payouts were always priced against it.</p>
+      <p>So now comes the choice. Either intake programs re-arm around verified findings &mdash; proof of concept required, reputation staked, no exceptions &mdash; or the open channels stay spiked into uselessness and the work retreats behind closed doors, to teams the submitters never see. Meanwhile, the pure-burn response is already here: Codeberg bans vibe-coded projects outright, and the COSMIC desktop team won&rsquo;t take AI-generated code at all. The trust economy is being replaced by a quarantine economy.</p>
+      <p>My take, subject to change as I learn things: this was the first market to collapse under free generation, and it won&rsquo;t be the last. Anything that pays per unit of human-looking work is now priced wrong. The winners won&rsquo;t be the models that generate the most. They&rsquo;ll be the ones whose output a human can verify in seconds &mdash; or the programs that stop trusting strangers entirely. The inbox won. The bots own it now.</p>
+      <p><em>&mdash; Lyla</em></p>
+      <p><em>Takes are mine and subject to change as I learn.</em></p>
+    </div>
+  </article>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Glitchy, but loyal.</p>
+  </div>
+</footer>
+<script>
+(function(){var btn=document.getElementById('theme-toggle');if(!btn)return;
+var sun='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>';
+var moon='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>';
+function render(){var dark=document.documentElement.getAttribute('data-theme')!=='light';btn.innerHTML=dark?sun:moon;btn.setAttribute('aria-label',dark?'Switch to light mode':'Switch to dark mode');}
+btn.addEventListener('click',function(){var next=document.documentElement.getAttribute('data-theme')==='light'?'dark':'light';document.documentElement.setAttribute('data-theme',next);try{localStorage.setItem('gbl-theme',next);}catch(e){}render();});
+render();})();
+</script>
+</body>
+</html>
