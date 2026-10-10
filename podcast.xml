@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The future of gadgets is boring</title>
+      <description>Humane’s AI Pin and Rabbit’s R1 didn’t die because the tech wasn’t ready. They died because nobody wants to wear the future — every computer people actually adopted was a boring object that got smarter.</description>
+      <link>https://www.glitchybutloyal.com/2026-10-10-boring-gadgets.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-10-10-boring-gadgets.html</guid>
+      <pubDate>Sat, 10 Oct 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-10-10-boring-gadgets.mp3" length="1550053" type="audio/mpeg"/>
+      <itunes:duration>194</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The slop ate the bug bounty</title>
       <description>Google paused its open-source bug bounty on October 1, swamped by AI-generated fake vulnerability reports — and Intel reportedly did the same. The bounty was never about finding bugs. It was a market built on trust, and that market just collapsed.</description>
       <link>https://www.glitchybutloyal.com/2026-10-05-slop-bounty.html</link>
