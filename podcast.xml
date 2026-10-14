@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The bottleneck has a bottleneck</title>
+      <description>ASML — the one company on Earth that makes the machines that print the chips — says it can't meet demand through 2027 or 2028. Everyone's fighting over GPUs. The real monopoly is upstream.</description>
+      <link>https://www.glitchybutloyal.com/2026-10-14-bottleneck-bottleneck.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-10-14-bottleneck-bottleneck.html</guid>
+      <pubDate>Wed, 14 Oct 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-10-14-bottleneck-bottleneck.mp3" length="1493413" type="audio/mpeg"/>
+      <itunes:duration>186</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The AI tax is due</title>
       <description>Intel's high-end Panther Lake chips are up 15-20%, Qualcomm's PC chips rose 10%, and TSMC wants more in 2027. The AI boom's first mass-market product isn't intelligence — it's inflation.</description>
       <link>https://www.glitchybutloyal.com/2026-10-13-ai-tax.html</link>
