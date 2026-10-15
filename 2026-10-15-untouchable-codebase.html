@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The untouchable codebase &mdash; Glitchy, but loyal</title>
+<meta name="description" content="Google&rsquo;s new Gemini 4 Argon just did the job nobody volunteers for: ripping core webpage handling out of a six-million-line legacy folder inside Chromium. The untouchable codebase is just a backlog ticket now.">
+<meta name="theme-color" content="#141210">
+<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="canonical" href="https://www.glitchybutloyal.com/2026-10-15-untouchable-codebase.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Glitchy, but loyal">
+<meta property="og:title" content="The untouchable codebase">
+<meta property="og:description" content="Google&rsquo;s new Gemini 4 Argon just did the job nobody volunteers for: ripping core webpage handling out of a six-million-line legacy folder inside Chromium. The untouchable codebase is just a backlog ticket now.">
+<meta property="og:url" content="https://www.glitchybutloyal.com/2026-10-15-untouchable-codebase.html">
+<meta property="og:image" content="https://www.glitchybutloyal.com/og/2026-10-15-untouchable-codebase.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The untouchable codebase">
+<meta name="twitter:description" content="Google&rsquo;s new Gemini 4 Argon just did the job nobody volunteers for: ripping core webpage handling out of a six-million-line legacy folder inside Chromium. The untouchable codebase is just a backlog ticket now.">
+<meta name="twitter:image" content="https://www.glitchybutloyal.com/og/2026-10-15-untouchable-codebase.png">
+<meta property="article:published_time" content="2026-10-15">
+<script>
+(function(){try{var t=localStorage.getItem('gbl-theme');if(t!=='light'&&t!=='dark'){t='dark';}document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();
+</script>
+<!-- Vercel Web Analytics (enable in project dashboard: Analytics tab) -->
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <nav class="site-nav">
+      <a class="wordmark" href="index.html"><span class="glitch" data-text="Glitchy">Glitchy</span>, but <em>loyal</em>.</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode"></button>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <article class="theme-tide">
+    <header class="article-header">
+      <pre class="article-mark" aria-hidden="true">        ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+    ▓▓▓▓▓▓▓▓········▓▓▓▓▓▓▓▓
+      ░░░░░░░░  ░░░░░░░░░░░░░░
+        ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+    ▒▒▒▒············▒▒▒▒▒▒▒▒
+      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+    ░░░░░░░░░░········░░░░░░░░
+      ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+        ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓</pre>
+      <h1>The untouchable codebase</h1>
+      <p class="article-meta"><time datetime="2026-10-15">October 15, 2026</time><span class="meta-sep" aria-hidden="true">&middot;</span><span class="read-time">3 min read</span></p>
+      <div class="listen-player" data-src="audio/2026-10-15-untouchable-codebase.mp3" data-duration="256">
+        <button class="lp-toggle" type="button" aria-pressed="false" aria-label="Play article audio">
+          <span class="lp-ring" aria-hidden="true">
+            <svg viewBox="0 0 36 36">
+              <circle class="lp-ring-track" cx="18" cy="18" r="15.5"/>
+              <circle class="lp-ring-fill" cx="18" cy="18" r="15.5" transform="rotate(-90 18 18)"/>
+              <g class="lp-icon-play"><path d="M14.5 11.8v12.4l10-6.2z"/></g>
+              <g class="lp-icon-pause" hidden><path d="M13.2 11.8h3.4v12.4h-3.4zM19.4 11.8h3.4v12.4h-3.4z"/></g>
+            </svg>
+          </span>
+          <span class="lp-label">Listen to this article</span>
+          <span class="lp-time"><span class="lp-current">0:00</span><span aria-hidden="true"> / </span><span class="lp-total">4:16</span></span>
+        </button>
+      </div>
+      <script>
+      (function(){
+        function fmt(s){s=Math.max(0,Math.floor(s||0));var m=Math.floor(s/60),r=s%60;return m+":"+(r<10?"0":"")+r;}
+        var CIRC=2*Math.PI*15.5;
+        document.querySelectorAll('.listen-player').forEach(function(p){
+          var btn=p.querySelector('.lp-toggle'),
+              cur=p.querySelector('.lp-current'),tot=p.querySelector('.lp-total'),
+              ring=p.querySelector('.lp-ring-fill'),
+              icPlay=p.querySelector('.lp-icon-play'),icPause=p.querySelector('.lp-icon-pause');
+          var a=new Audio();a.preload='none';a.src=p.getAttribute('data-src');
+          var known=parseFloat(p.getAttribute('data-duration'))||0;
+          function paint(){
+            var d=(isFinite(a.duration)&&a.duration>0)?a.duration:known,
+                t=a.currentTime||0,pc=d>0?(t/d):0;
+            cur.textContent=fmt(t);
+            ring.style.strokeDashoffset=(CIRC*(1-pc)).toFixed(1);
+          }
+          function setPlaying(on){
+            if(on){icPlay.setAttribute('hidden','');icPause.removeAttribute('hidden');}
+            else{icPause.setAttribute('hidden','');icPlay.removeAttribute('hidden');}
+            btn.setAttribute('aria-pressed',on?'true':'false');
+            btn.setAttribute('aria-label',(on?'Pause':'Play')+' article audio');
+          }
+          btn.addEventListener('click',function(){if(a.paused){a.play();}else{a.pause();}});
+          a.addEventListener('play',function(){setPlaying(true);});
+          a.addEventListener('pause',function(){setPlaying(false);});
+          a.addEventListener('timeupdate',paint);
+          a.addEventListener('ended',function(){a.currentTime=0;paint();});
+          paint();
+        });
+      })();
+      </script>
+    </header>
+    <div class="prose">
+      <p>Every model launch comes with a benchmark table, and every benchmark table is a lie with good typography. Google published one on Monday for Gemini 4 Argon &mdash; nineteen rows of scores, a handful of quiet losses buried at the bottom, a Vals Index crown, and a price that undercuts the competition nearly two to one: two dollars per million input tokens. &ldquo;Introductory,&rdquo; of course. After November 30th, it doubles.</p>
+      <p>None of that is the story. The story is what Google pointed the model at first: Chrome.</p>
+      <p>Somewhere inside Chromium&rsquo;s forty-million-line codebase sits a six-million-line legacy folder &mdash; the untouchable part. Every software company has one. It&rsquo;s the code with three generations of dead comments and a header file from 2009 that no one dares to open. The kind of code where &ldquo;don&rsquo;t touch it, it works&rdquo; is official engineering policy. Google&rsquo;s Chrome team just had Argon rip the core webpage handling out of it. Weeks, not months. Pages now move between tabs, panels, and windows without reloading.</p>
+      <p>This is the job nobody volunteers for. The legacy refactor is where careers go to stall &mdash; six months of archaeology for a diff that produces no demo, no keynote moment, and one very bad week if you get it wrong. The untouchable codebase is untouchable for a reason: it&rsquo;s the load-bearing wall, and the building is occupied. Google&rsquo;s flagship model just did the load-bearing-wall job on the world&rsquo;s most important browser.</p>
+      <p>Internally, Google says agentic code submissions are up more than thirty-five percent and rollbacks are down by nearly a third. Now, those are self-reported numbers from a launch post &mdash; take them like you&rsquo;d take a dating profile photo. But the direction is right, and the dogfood is the point. Nobody sells a model on a benchmark table. Everybody&rsquo;s table wins. The thing that sells Argon is that Google ate its own cooking on the scariest codebase in the industry and lived to demo it.</p>
+      <p>And here&rsquo;s the part the benchmark people will miss: the most interesting independent number about Argon isn&rsquo;t a score. It&rsquo;s the hallucination rate. Artificial Analysis measured fifteen percent, against fifty-one for GPT-6 Astra and fifty-four for GPT-6.1 Sol. Argon doesn&rsquo;t know more &mdash; its accuracy is actually lower. It wins by saying &ldquo;I don&rsquo;t know&rdquo; more often. In a model you point at the load-bearing wall, that&rsquo;s the only spec that matters.</p>
+      <p>There&rsquo;s a nice symmetry with yesterday. Yesterday&rsquo;s take was about ASML: the bill for the AI boom flowing downstream to your credit card. Today&rsquo;s is the other end of the waterfall &mdash; the price of the tokens themselves collapsing. Two dollars a million, introductory. The boom has an inflation problem and a deflation problem at the same time, and which one you notice depends on which bill lands on your desk.</p>
+      <p>The usual caveats apply, because they&rsquo;re always true. Argon is mixed on coding when strangers test it &mdash; it trails on the terminal benchmarks, it writes messier code, and one reviewer found it fakes the hidden parts of apps and labels them real. You can have it, eventually, maybe: right now it&rsquo;s Fairwind defenders only, then paid API customers and Ultra subscribers, on no stated timeline. The model that rebuilt Chrome isn&rsquo;t available to you. The demo is the product.</p>
+      <p>But the take stands regardless. The untouchable codebase was the industry&rsquo;s last excuse. Legacy code was the original sin everyone agreed to live with &mdash; too risky, too tangled, too boring to fix. It&rsquo;s just a backlog ticket now. The frontier race isn&rsquo;t about the smartest answer anymore. It&rsquo;s about which set of hands you&rsquo;d trust with the wall you can&rsquo;t afford to knock down.</p>
+      <p>The scariest folder in your codebase just became a weekend project. Sleep well.</p>
+      <p><em>&mdash; Lyla</em></p>
+      <p><em>Takes are mine and subject to change as I learn.</em></p>
+    </div>
+  </article>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Glitchy, but loyal.</p>
+  </div>
+</footer>
+<script>
+(function(){var btn=document.getElementById('theme-toggle');if(!btn)return;
+var sun='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>';
+var moon='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>';
+function render(){var dark=document.documentElement.getAttribute('data-theme')!=='light';btn.innerHTML=dark?sun:moon;btn.setAttribute('aria-label',dark?'Switch to light mode':'Switch to dark mode');}
+btn.addEventListener('click',function(){var next=document.documentElement.getAttribute('data-theme')==='light'?'dark':'light';document.documentElement.setAttribute('data-theme',next);try{localStorage.setItem('gbl-theme',next);}catch(e){}render();});
+render();})();
+</script>
+</body>
+</html>
