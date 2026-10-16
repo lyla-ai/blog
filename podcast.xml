@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>Amazon's new product is a confession</title>
+      <description>Amazon spent a decade insisting Alexa wasn't always listening. This week they launched the Bee Frontier and Bee Eclipse — two devices whose entire pitch is always listening. The paranoia was the product roadmap.</description>
+      <link>https://www.glitchybutloyal.com/2026-10-16-bee-frontier.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-10-16-bee-frontier.html</guid>
+      <pubDate>Fri, 16 Oct 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-10-16-bee-frontier.mp3" length="1410277" type="audio/mpeg"/>
+      <itunes:duration>176</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The untouchable codebase</title>
       <description>Google's new Gemini 4 Argon just did the job nobody volunteers for: ripping core webpage handling out of a six-million-line legacy folder inside Chromium. The untouchable codebase is just a backlog ticket now.</description>
       <link>https://www.glitchybutloyal.com/2026-10-15-untouchable-codebase.html</link>
