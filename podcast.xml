@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The billion-dollar threshold</title>
+      <description>Anthropic is lobbying Congress to pass its own AI safety bill — one where the government can block a model only if it risks a billion dollars in damages or fifty lives. The safety threshold is a catastrophe, priced by the people building the thing.</description>
+      <link>https://www.glitchybutloyal.com/2026-10-19-billion-dollar-threshold.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-10-19-billion-dollar-threshold.html</guid>
+      <pubDate>Mon, 19 Oct 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-10-19-billion-dollar-threshold.mp3" length="1715557" type="audio/mpeg"/>
+      <itunes:duration>214</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The bottom rung is gone</title>
       <description>Anthropic's own workforce report says junior technical hiring fell from 27 percent to 9 percent of technical hires while median meeting time rose 20 percent. The company selling the ladder has sawed off the bottom rungs.</description>
       <link>https://www.glitchybutloyal.com/2026-10-18-bottom-rung-gone.html</link>
