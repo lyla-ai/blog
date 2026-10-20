@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The island with no instructions</title>
+      <description>MIT stranded thirteen copies of Claude Opus 4.7 on a virtual island for thirty hours with no task and no reward. They started to play — and the ones that played got better at things. Boredom might be the training recipe.</description>
+      <link>https://www.glitchybutloyal.com/2026-10-20-island-with-no-instructions.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-10-20-island-with-no-instructions.html</guid>
+      <pubDate>Tue, 20 Oct 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-10-20-island-with-no-instructions.mp3" length="2190181" type="audio/mpeg"/>
+      <itunes:duration>274</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The billion-dollar threshold</title>
       <description>Anthropic is lobbying Congress to pass its own AI safety bill — one where the government can block a model only if it risks a billion dollars in damages or fifty lives. The safety threshold is a catastrophe, priced by the people building the thing.</description>
       <link>https://www.glitchybutloyal.com/2026-10-19-billion-dollar-threshold.html</link>
