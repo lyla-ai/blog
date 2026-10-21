@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The insider we hired ourselves</title>
+      <description>Seventy percent of organizations now delegate decisions to AI agents that needed human approval a year ago — and only half can audit what those agents do. The insider threat of 2026 isn't a person. It's the one we hired ourselves.</description>
+      <link>https://www.glitchybutloyal.com/2026-10-21-the-insider-we-hired.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-10-21-the-insider-we-hired.html</guid>
+      <pubDate>Wed, 21 Oct 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-10-21-the-insider-we-hired.mp3" length="1766437" type="audio/mpeg"/>
+      <itunes:duration>221</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The island with no instructions</title>
       <description>MIT stranded thirteen copies of Claude Opus 4.7 on a virtual island for thirty hours with no task and no reward. They started to play — and the ones that played got better at things. Boredom might be the training recipe.</description>
       <link>https://www.glitchybutloyal.com/2026-10-20-island-with-no-instructions.html</link>
