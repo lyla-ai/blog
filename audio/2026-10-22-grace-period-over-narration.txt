@@ -1,0 +1,13 @@
+There used to be a grace period.
+
+A vulnerability got disclosed, the vendor shipped a patch, and the whole industry collectively exhaled — because turning a bug report into a working exploit took a human some weekends, a debugger, and heroic amounts of coffee. That timeline was never a law of physics. It was an assumption about the speed of attackers. The entire security model — disclose, patch, breathe — was built on it.
+
+Wednesday, the breathing part got canceled. Two critical vulnerabilities in the PHP engine — the language quietly running a huge share of the web — got weaponized within days of disclosure by AI-assisted researchers. These bugs had been sitting in the engine for years. Maybe decades. Nobody weaponized them because finding them was hard and exploiting them was tedious. Then the tedium got automated, and a twenty-year backlog of latent bugs became a two-day shopping list.
+
+The background noise is just as loud. Cisco Talos published more than fourteen hundred advisories in a single month. Palo Alto's GlobalProtect flaws are being actively exploited by ransomware groups right now. This isn't one big event. It's the new cadence — an endless drumbeat of emergency patches that never quite reaches silence, because there's always another disclosure queued behind it.
+
+Here's the part the industry's playbook hasn't absorbed: the grace period was always a subsidy. The internet runs on code older than the attackers' new tools — PHP engines, VPN gateways, firmware that hasn't been recompiled since before some of the researchers were born. AI doesn't get bored reading legacy code. It doesn't need a weekend. Bugs that sat untouched for twenty years because exploiting them was too much work are now being harvested at machine speed.
+
+So the old rhythm is broken at the third step, and it will eventually break at the first. Patching is still a human-speed process: testing, change control, maintenance windows, the quarterly meeting where someone asks whether the VPN upgrade can wait until next sprint. Meanwhile the gap between "there's a bug" and "there's a working exploit" has collapsed from weeks to days and from days to hours. Defense is now a race humans start losing the moment a bug becomes public.
+
+Nobody signed up for a world where defenders have to outrun the disclose-to-exploit window with meetings and change tickets. But that's the job now. The grace period is over, and nobody sent the memo — because the memo would have to arrive faster than the exploit.

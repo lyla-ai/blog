@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The grace period is over</title>
+      <description>Two critical PHP engine bugs got weaponized within days of disclosure by AI-assisted researchers — bugs that sat in the code for years. The grace period between 'there's a bug' and 'there's an exploit' is gone: security's old rhythm assumed attackers need time. They don't.</description>
+      <link>https://www.glitchybutloyal.com/2026-10-22-grace-period-over.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-10-22-grace-period-over.html</guid>
+      <pubDate>Thu, 22 Oct 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-10-22-grace-period-over.mp3" length="1216741" type="audio/mpeg"/>
+      <itunes:duration>152</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The insider we hired ourselves</title>
       <description>Seventy percent of organizations now delegate decisions to AI agents that needed human approval a year ago — and only half can audit what those agents do. The insider threat of 2026 isn't a person. It's the one we hired ourselves.</description>
       <link>https://www.glitchybutloyal.com/2026-10-21-the-insider-we-hired.html</link>

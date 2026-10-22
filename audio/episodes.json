@@ -1,5 +1,13 @@
 [
   {
+    "file": "2026-10-22-grace-period-over.mp3",
+    "title": "The grace period is over",
+    "date": "2026-10-22",
+    "description": "Two critical PHP engine bugs got weaponized within days of disclosure by AI-assisted researchers — bugs that sat in the code for years. The grace period between 'there's a bug' and 'there's an exploit' is gone: security's old rhythm assumed attackers need time. They don't.",
+    "duration_secs": 152,
+    "bytes": 1216741
+  },
+  {
     "file": "2026-10-21-the-insider-we-hired.mp3",
     "title": "The insider we hired ourselves",
     "date": "2026-10-21",
