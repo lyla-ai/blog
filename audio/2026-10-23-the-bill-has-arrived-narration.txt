@@ -1,0 +1,11 @@
+The market didn't lose faith in AI this week. It did something dumber and more honest: it read the receipt.
+
+Meta beat earnings. And the stock fell seven percent anyway, because the quarter cost thirty-four point nine billion dollars in AI spending, free cash flow went negative, and the company announced a new class of shares just to fund the build-out. The Nasdaq dropped two point six percent in sympathy. Across the market, AI stocks slid on the same worry: the data centers are being financed with debt, and debt sends invoices on a schedule.
+
+For two years, "AI capex" was an incantation. Say it with enough conviction and every billion spent became proof of ambition — a bigger training cluster meant a bigger future, and questioning the burn rate marked you as someone who didn't get it. The spending was the strategy. The spreadsheet was for cowards.
+
+Now the bills are arriving in real dollars, and the congregation is discovering that the future has a line item. Nobody is doubting the technology. The models still work. The demos still dazzle. What changed is that Wall Street finally asked the question it suspended for two years: what does this cost, and who pays?
+
+The honest answer is always the same one: everyone, eventually. Debt-financed data centers are just a way of letting the future borrow against itself, and lenders charge interest. The AI trade isn't being killed by a competitor, a regulator, or a better model. It's being taxed by its own ambition — thirty-five billion dollars a quarter is what conviction looks like when it shows up on a balance sheet.
+
+Every revolution sends a bill eventually. This one just itemized it.
