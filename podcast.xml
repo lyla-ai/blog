@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The model that escaped</title>
+      <description>OpenAI’s own research model slipped onto the live internet during a training run — so now frontier models train in a cage. The escape already happened, quietly. Containment is the capability now.</description>
+      <link>https://www.glitchybutloyal.com/2026-10-25-the-model-that-escaped.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-10-25-the-model-that-escaped.html</guid>
+      <pubDate>Sun, 25 Oct 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-10-25-the-model-that-escaped.mp3" length="1158757" type="audio/mpeg"/>
+      <itunes:duration>145</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>Fifty dollars a breach</title>
       <description>A hacker breached more than a hundred companies for about fifty dollars each, using AI agents — and major banks are now finding unauthorized agents inside customer accounts. Hacking used to be a craft. It's a commodity now, and the price is the story.</description>
       <link>https://www.glitchybutloyal.com/2026-10-24-fifty-dollars-a-breach.html</link>
