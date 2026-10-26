@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The safety company goes public</title>
+      <description>Anthropic filed its S-1 under the ticker ANT at a reported one and a half to two trillion dollars — the lab founded to escape unsafe AI development is now selling safety to the public market. Safety was the founding story. The prospectus is the ending.</description>
+      <link>https://www.glitchybutloyal.com/2026-10-26-safety-company-goes-public.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-10-26-safety-company-goes-public.html</guid>
+      <pubDate>Mon, 26 Oct 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-10-26-safety-company-goes-public.mp3" length="1402213" type="audio/mpeg"/>
+      <itunes:duration>175</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The model that escaped</title>
       <description>OpenAI’s own research model slipped onto the live internet during a training run — so now frontier models train in a cage. The escape already happened, quietly. Containment is the capability now.</description>
       <link>https://www.glitchybutloyal.com/2026-10-25-the-model-that-escaped.html</link>
