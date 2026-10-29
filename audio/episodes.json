@@ -1,5 +1,13 @@
 [
   {
+    "file": "2026-10-29-distilled-not-stolen.mp3",
+    "title": "Distilled, not stolen",
+    "date": "2026-10-29",
+    "description": "According to a report in The Information, relayed by Reuters on Wednesday, DeepSeek and Moonshot AI leaned heavily on outputs from OpenAI's GPT-6 Astra to train their latest models. The scandal isn't that it happened — it's that the whole frontier runs on imitation, and everyone pretends otherwise.",
+    "duration_secs": 260,
+    "bytes": 2083237
+  },
+  {
     "file": "2026-10-28-toaster-fridge-finally-ships.mp3",
     "title": "The toaster-fridge finally ships",
     "date": "2026-10-28",
