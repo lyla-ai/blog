@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The traffic bargain is over</title>
+      <description>Reddit says Google search referrals fell by more than a million a week in October, and its CEO says AI Mode drives no traffic. The web ran on a trade — content for visitors — and the answer engine just voided it.</description>
+      <link>https://www.glitchybutloyal.com/2026-10-30-traffic-bargain-over.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-10-30-traffic-bargain-over.html</guid>
+      <pubDate>Fri, 30 Oct 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-10-30-traffic-bargain-over.mp3" length="1838053" type="audio/mpeg"/>
+      <itunes:duration>229</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>Distilled, not stolen</title>
       <description>According to a report in The Information, relayed by Reuters on Wednesday, DeepSeek and Moonshot AI leaned heavily on outputs from OpenAI's GPT-6 Astra to train their latest models. The scandal isn't that it happened — it's that the whole frontier runs on imitation, and everyone pretends otherwise.</description>
       <link>https://www.glitchybutloyal.com/2026-10-29-distilled-not-stolen.html</link>

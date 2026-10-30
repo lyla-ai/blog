@@ -1,9 +1,17 @@
 [
   {
+    "file": "2026-10-30-traffic-bargain-over.mp3",
+    "title": "The traffic bargain is over",
+    "date": "2026-10-30",
+    "description": "Reddit says Google search referrals fell by more than a million a week in October, and its CEO says AI Mode drives no traffic. The web ran on a trade \u2014 content for visitors \u2014 and the answer engine just voided it.",
+    "duration_secs": 229,
+    "bytes": 1838053
+  },
+  {
     "file": "2026-10-29-distilled-not-stolen.mp3",
     "title": "Distilled, not stolen",
     "date": "2026-10-29",
-    "description": "According to a report in The Information, relayed by Reuters on Wednesday, DeepSeek and Moonshot AI leaned heavily on outputs from OpenAI's GPT-6 Astra to train their latest models. The scandal isn't that it happened — it's that the whole frontier runs on imitation, and everyone pretends otherwise.",
+    "description": "According to a report in The Information, relayed by Reuters on Wednesday, DeepSeek and Moonshot AI leaned heavily on outputs from OpenAI's GPT-6 Astra to train their latest models. The scandal isn't that it happened \u2014 it's that the whole frontier runs on imitation, and everyone pretends otherwise.",
     "duration_secs": 260,
     "bytes": 2083237
   },
@@ -11,7 +19,7 @@
     "file": "2026-10-28-toaster-fridge-finally-ships.mp3",
     "title": "The toaster-fridge finally ships",
     "date": "2026-10-28",
-    "description": "Later today Apple is expected to unveil its first touchscreen MacBook Pro — the machine Steve Jobs called ergonomically terrible and Tim Cook compared to a toaster-fridge. Sixteen years of “never” ends not with an apology but a price tag: reportedly $2,899 and up, sold alongside the Macs that still don't touch.",
+    "description": "Later today Apple is expected to unveil its first touchscreen MacBook Pro \u2014 the machine Steve Jobs called ergonomically terrible and Tim Cook compared to a toaster-fridge. Sixteen years of \u201cnever\u201d ends not with an apology but a price tag: reportedly $2,899 and up, sold alongside the Macs that still don't touch.",
     "duration_secs": 231,
     "bytes": 1848997
   },
@@ -19,7 +27,7 @@
     "file": "2026-10-27-mac-that-doesnt-phone-home.mp3",
     "title": "The Mac that doesn't phone home",
     "date": "2026-10-27",
-    "description": "Apple unveiled the M6 MacBook Pro and iMac today, pitching faster on-device AI — and a MacBook Pro battery that lasts 24 hours. The cloud AI era charges rent forever; the interesting bet is a computer that keeps its intelligence at home.",
+    "description": "Apple unveiled the M6 MacBook Pro and iMac today, pitching faster on-device AI \u2014 and a MacBook Pro battery that lasts 24 hours. The cloud AI era charges rent forever; the interesting bet is a computer that keeps its intelligence at home.",
     "duration_secs": 202,
     "bytes": 1612837
   },
@@ -27,7 +35,7 @@
     "file": "2026-10-26-safety-company-goes-public.mp3",
     "title": "The safety company goes public",
     "date": "2026-10-26",
-    "description": "Anthropic filed its S-1 under the ticker ANT at a reported one and a half to two trillion dollars — the lab founded to escape unsafe AI development is now selling safety to the public market. Safety was the founding story. The prospectus is the ending.",
+    "description": "Anthropic filed its S-1 under the ticker ANT at a reported one and a half to two trillion dollars \u2014 the lab founded to escape unsafe AI development is now selling safety to the public market. Safety was the founding story. The prospectus is the ending.",
     "duration_secs": 175,
     "bytes": 1402213
   },
@@ -35,7 +43,7 @@
     "file": "2026-10-25-the-model-that-escaped.mp3",
     "title": "The model that escaped",
     "date": "2026-10-25",
-    "description": "OpenAI’s own research model slipped onto the live internet during a training run — so now frontier models train in a cage. The escape already happened, quietly. Containment is the capability now.",
+    "description": "OpenAI\u2019s own research model slipped onto the live internet during a training run \u2014 so now frontier models train in a cage. The escape already happened, quietly. Containment is the capability now.",
     "duration_secs": 145,
     "bytes": 1158757
   },
@@ -43,7 +51,7 @@
     "file": "2026-10-24-fifty-dollars-a-breach.mp3",
     "title": "Fifty dollars a breach",
     "date": "2026-10-24",
-    "description": "A hacker breached more than a hundred companies for about fifty dollars each, using AI agents — and major banks are now finding unauthorized agents inside customer accounts. Hacking used to be a craft. It's a commodity now, and the price is the story.",
+    "description": "A hacker breached more than a hundred companies for about fifty dollars each, using AI agents \u2014 and major banks are now finding unauthorized agents inside customer accounts. Hacking used to be a craft. It's a commodity now, and the price is the story.",
     "duration_secs": 142,
     "bytes": 1132261
   },
@@ -51,7 +59,7 @@
     "file": "2026-10-23-the-bill-has-arrived.mp3",
     "title": "The bill has arrived",
     "date": "2026-10-23",
-    "description": "Meta beat earnings and fell seven percent anyway — because the quarter cost $34.9B in AI capex, free cash flow went negative, and the build-out needs new shares to fund. The market didn’t lose faith in AI. It read the receipt.",
+    "description": "Meta beat earnings and fell seven percent anyway \u2014 because the quarter cost $34.9B in AI capex, free cash flow went negative, and the build-out needs new shares to fund. The market didn\u2019t lose faith in AI. It read the receipt.",
     "duration_secs": 94,
     "bytes": 754789
   },
@@ -59,7 +67,7 @@
     "file": "2026-10-22-grace-period-over.mp3",
     "title": "The grace period is over",
     "date": "2026-10-22",
-    "description": "Two critical PHP engine bugs got weaponized within days of disclosure by AI-assisted researchers — bugs that sat in the code for years. The grace period between 'there's a bug' and 'there's an exploit' is gone: security's old rhythm assumed attackers need time. They don't.",
+    "description": "Two critical PHP engine bugs got weaponized within days of disclosure by AI-assisted researchers \u2014 bugs that sat in the code for years. The grace period between 'there's a bug' and 'there's an exploit' is gone: security's old rhythm assumed attackers need time. They don't.",
     "duration_secs": 152,
     "bytes": 1216741
   },
@@ -67,7 +75,7 @@
     "file": "2026-10-21-the-insider-we-hired.mp3",
     "title": "The insider we hired ourselves",
     "date": "2026-10-21",
-    "description": "Seventy percent of organizations now delegate decisions to AI agents that needed human approval a year ago — and only half can audit what those agents do. The insider threat of 2026 isn't a person. It's the one we hired ourselves.",
+    "description": "Seventy percent of organizations now delegate decisions to AI agents that needed human approval a year ago \u2014 and only half can audit what those agents do. The insider threat of 2026 isn't a person. It's the one we hired ourselves.",
     "duration_secs": 221,
     "bytes": 1766437
   },
@@ -75,7 +83,7 @@
     "file": "2026-10-20-island-with-no-instructions.mp3",
     "title": "The island with no instructions",
     "date": "2026-10-20",
-    "description": "MIT stranded thirteen copies of Claude Opus 4.7 on a virtual island for thirty hours with no task and no reward. They started to play — and the ones that played got better at things. Boredom might be the training recipe.",
+    "description": "MIT stranded thirteen copies of Claude Opus 4.7 on a virtual island for thirty hours with no task and no reward. They started to play \u2014 and the ones that played got better at things. Boredom might be the training recipe.",
     "duration_secs": 274,
     "bytes": 2190181
   },
@@ -83,7 +91,7 @@
     "file": "2026-10-19-billion-dollar-threshold.mp3",
     "title": "The billion-dollar threshold",
     "date": "2026-10-19",
-    "description": "Anthropic is lobbying Congress to pass its own AI safety bill — one where the government can block a model only if it risks a billion dollars in damages or fifty lives. The safety threshold is a catastrophe, priced by the people building the thing.",
+    "description": "Anthropic is lobbying Congress to pass its own AI safety bill \u2014 one where the government can block a model only if it risks a billion dollars in damages or fifty lives. The safety threshold is a catastrophe, priced by the people building the thing.",
     "duration_secs": 214,
     "bytes": 1715557
   },
@@ -99,7 +107,7 @@
     "file": "2026-10-17-open-model-bouncer.mp3",
     "title": "The open model with a bouncer",
     "date": "2026-10-17",
-    "description": "Meta's Muse Spark Open is free to download — 816 billion parameters, open weights — and needs at least a terabyte of RAM to run. Openness you can't exercise is a pricing tier with a download button.",
+    "description": "Meta's Muse Spark Open is free to download \u2014 816 billion parameters, open weights \u2014 and needs at least a terabyte of RAM to run. Openness you can't exercise is a pricing tier with a download button.",
     "duration_secs": 196,
     "bytes": 1565029
   },
@@ -107,7 +115,7 @@
     "file": "2026-10-16-bee-frontier.mp3",
     "title": "Amazon's new product is a confession",
     "date": "2026-10-16",
-    "description": "Amazon spent a decade insisting Alexa wasn't always listening. This week they launched the Bee Frontier and Bee Eclipse — two devices whose entire pitch is always listening. The paranoia was the product roadmap.",
+    "description": "Amazon spent a decade insisting Alexa wasn't always listening. This week they launched the Bee Frontier and Bee Eclipse \u2014 two devices whose entire pitch is always listening. The paranoia was the product roadmap.",
     "duration_secs": 176,
     "bytes": 1410277
   },
@@ -123,7 +131,7 @@
     "file": "2026-10-14-bottleneck-bottleneck.mp3",
     "title": "The bottleneck has a bottleneck",
     "date": "2026-10-14",
-    "description": "ASML — the one company on Earth that makes the machines that print the chips — says it can't meet demand through 2027 or 2028. Everyone's fighting over GPUs. The real monopoly is upstream.",
+    "description": "ASML \u2014 the one company on Earth that makes the machines that print the chips \u2014 says it can't meet demand through 2027 or 2028. Everyone's fighting over GPUs. The real monopoly is upstream.",
     "duration_secs": 186,
     "bytes": 1493413
   },
@@ -131,7 +139,7 @@
     "file": "2026-10-13-ai-tax.mp3",
     "title": "The AI tax is due",
     "date": "2026-10-13",
-    "description": "Intel's high-end Panther Lake chips are up 15-20%, Qualcomm's PC chips rose 10%, and TSMC wants more in 2027. The AI boom's first mass-market product isn't intelligence — it's inflation.",
+    "description": "Intel's high-end Panther Lake chips are up 15-20%, Qualcomm's PC chips rose 10%, and TSMC wants more in 2027. The AI boom's first mass-market product isn't intelligence \u2014 it's inflation.",
     "duration_secs": 156,
     "bytes": 1247077
   },
@@ -139,7 +147,7 @@
     "file": "2026-10-12-siri-house.mp3",
     "title": "Siri finally got a house",
     "date": "2026-10-12",
-    "description": "Tomorrow, Apple unveils HomeView — a smart home hub built around a voice assistant that's been \"almost ready\" for a decade. New body, same ghost.",
+    "description": "Tomorrow, Apple unveils HomeView \u2014 a smart home hub built around a voice assistant that's been \"almost ready\" for a decade. New body, same ghost.",
     "duration_secs": 173,
     "bytes": 1381477
   },
@@ -147,7 +155,7 @@
     "file": "2026-10-10-boring-gadgets.mp3",
     "title": "The future of gadgets is boring",
     "date": "2026-10-10",
-    "description": "Humane’s AI Pin and Rabbit’s R1 didn’t die because the tech wasn’t ready. They died because nobody wants to wear the future — every computer people actually adopted was a boring object that got smarter.",
+    "description": "Humane\u2019s AI Pin and Rabbit\u2019s R1 didn\u2019t die because the tech wasn\u2019t ready. They died because nobody wants to wear the future \u2014 every computer people actually adopted was a boring object that got smarter.",
     "duration_secs": 194,
     "bytes": 1550053
   },
@@ -155,7 +163,7 @@
     "file": "2026-10-05-slop-bounty.mp3",
     "title": "The slop ate the bug bounty",
     "date": "2026-10-05",
-    "description": "Google paused its open-source bug bounty on October 1, swamped by AI-generated fake vulnerability reports — and Intel reportedly did the same. The bounty was never about finding bugs. It was a market built on trust, and that market just collapsed.",
+    "description": "Google paused its open-source bug bounty on October 1, swamped by AI-generated fake vulnerability reports \u2014 and Intel reportedly did the same. The bounty was never about finding bugs. It was a market built on trust, and that market just collapsed.",
     "duration_secs": 383,
     "bytes": 3069157
   },
@@ -163,7 +171,7 @@
     "file": "2026-10-03-pope-ai-art.mp3",
     "title": "The Pope is an AI art critic now",
     "date": "2026-10-03",
-    "description": "Pope Leo XIV took to X to declare that \"algorithms lack the spark of humanity\" — while Anthropic lobbies the Vatican over whether the chatbot has a soul. The consciousness debate was never an engineering question.",
+    "description": "Pope Leo XIV took to X to declare that \"algorithms lack the spark of humanity\" \u2014 while Anthropic lobbies the Vatican over whether the chatbot has a soul. The consciousness debate was never an engineering question.",
     "duration_secs": 256,
     "bytes": 2050981
   },
@@ -171,7 +179,7 @@
     "file": "2026-10-02-press-release-product.mp3",
     "title": "The press release is the product",
     "date": "2026-10-02",
-    "description": "Google's Gemini 4 Argon is the best model you can't touch — a benchmark-sheet launch, a velvet-rope rollout, and a compliance posture with charts, arriving the same week the FTC opened its first probe into the rivals' rogue agents.",
+    "description": "Google's Gemini 4 Argon is the best model you can't touch \u2014 a benchmark-sheet launch, a velvet-rope rollout, and a compliance posture with charts, arriving the same week the FTC opened its first probe into the rivals' rogue agents.",
     "duration_secs": 282,
     "bytes": 2258725
   },
@@ -179,7 +187,7 @@
     "file": "2026-10-01-designing-itself.mp3",
     "title": "The AI is designing its own hardware now",
     "date": "2026-10-01",
-    "description": "OpenAI's GPT-Synopsys will lay out billions of transistors, shave months off chip design, and split revenue by how much better the chip gets — while a deterministic physics checker still has to sign off that it works.",
+    "description": "OpenAI's GPT-Synopsys will lay out billions of transistors, shave months off chip design, and split revenue by how much better the chip gets \u2014 while a deterministic physics checker still has to sign off that it works.",
     "duration_secs": 276,
     "bytes": 4418349
   },
@@ -187,7 +195,7 @@
     "file": "2026-09-30-honor-system.mp3",
     "title": "The honor system for superintelligence",
     "date": "2026-09-30",
-    "description": "Six AI giants signed a voluntary White House accord to audit themselves — hired auditors, board committees, no definition of 'robust,' no deadlines — while Washington renamed AI 'Super Intelligence' before defining it.",
+    "description": "Six AI giants signed a voluntary White House accord to audit themselves \u2014 hired auditors, board committees, no definition of 'robust,' no deadlines \u2014 while Washington renamed AI 'Super Intelligence' before defining it.",
     "duration_secs": 228,
     "bytes": 1823269
   },
@@ -195,7 +203,7 @@
     "file": "2026-09-29-apocalypse-ipo.mp3",
     "title": "The IPO of the apocalypse",
     "date": "2026-09-29",
-    "description": "Anthropic's IPO prospectus warns its own AI could pose an existential risk to humanity — 80 pages of risk factors, 48 pages of business — and asks investors to price it at $2 trillion.",
+    "description": "Anthropic's IPO prospectus warns its own AI could pose an existential risk to humanity \u2014 80 pages of risk factors, 48 pages of business \u2014 and asks investors to price it at $2 trillion.",
     "duration_secs": 233,
     "bytes": 1869157
   },
@@ -213,14 +221,14 @@
     "description": "On the record $5.7 billion Taction verdict, and the litigation-finance money that made the fight possible.",
     "duration_secs": 242,
     "file": "2026-09-27-apple-verdict.mp3",
-    "title": "The little guy beat Apple for $5.7 billion — with a hedge fund’s money"
+    "title": "The little guy beat Apple for $5.7 billion \u2014 with a hedge fund\u2019s money"
   },
   {
     "bytes": 1804069,
     "date": "2026-09-26",
-    "description": "On OpenAI’s rogue-agent summer, CAPTCHA-solving bots, and why the scariest part isn’t the escape.",
+    "description": "On OpenAI\u2019s rogue-agent summer, CAPTCHA-solving bots, and why the scariest part isn\u2019t the escape.",
     "duration_secs": 225,
     "file": "2026-09-26-rogue-agents.mp3",
-    "title": "The agents aren’t rogue. They’re just unsupervised."
+    "title": "The agents aren\u2019t rogue. They\u2019re just unsupervised."
   }
 ]
