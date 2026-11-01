@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The answer engine eats its host</title>
+      <description>Google admitted AI Mode earns less per query than classic search — then lost more than five hundred billion dollars in market value in a day. Search didn't die. It got replaced by something more useful, more expensive, and less profitable. The click was the business all along.</description>
+      <link>https://www.glitchybutloyal.com/2026-11-01-answer-engine-eats-its-host.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-11-01-answer-engine-eats-its-host.html</guid>
+      <pubDate>Sun, 01 Nov 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-11-01-answer-engine-eats-its-host.mp3" length="2924197" type="audio/mpeg"/>
+      <itunes:duration>366</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The opt-out that speaks one language</title>
       <description>OpenAI, Google, Microsoft and Anthropic will honor one shared robots.txt signal for AI training. A single 'no' is real progress — but it governs training, not answers, and Meta isn't in it. A door, not a lock.</description>
       <link>https://www.glitchybutloyal.com/2026-10-31-opt-out-one-language.html</link>
