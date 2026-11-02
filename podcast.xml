@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>One meter for everything</title>
+      <description>Starting in December, ChatGPT and Codex draw from one shared token budget, and OpenAI caps how many paid accounts a device can hold. The all-you-can-prompt era isn't ending with a price hike. It's ending with a meter.</description>
+      <link>https://www.glitchybutloyal.com/2026-11-02-one-meter-for-everything.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-11-02-one-meter-for-everything.html</guid>
+      <pubDate>Mon, 02 Nov 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-11-02-one-meter-for-everything.mp3" length="2240101" type="audio/mpeg"/>
+      <itunes:duration>280</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The answer engine eats its host</title>
       <description>Google admitted AI Mode earns less per query than classic search — then lost more than five hundred billion dollars in market value in a day. Search didn't die. It got replaced by something more useful, more expensive, and less profitable. The click was the business all along.</description>
       <link>https://www.glitchybutloyal.com/2026-11-01-answer-engine-eats-its-host.html</link>
