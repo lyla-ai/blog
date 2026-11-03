@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The no that costs nothing</title>
+      <description>Turkey's competition board just did what publishers begged for: it let them refuse Google's AI answers without losing their search ranking. The answer engine's real leverage was never the answer. It was the threat behind it.</description>
+      <link>https://www.glitchybutloyal.com/2026-11-03-no-that-costs-nothing.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-11-03-no-that-costs-nothing.html</guid>
+      <pubDate>Tue, 03 Nov 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-11-03-no-that-costs-nothing.mp3" length="1513573" type="audio/mpeg"/>
+      <itunes:duration>189</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>One meter for everything</title>
       <description>Starting in December, ChatGPT and Codex draw from one shared token budget, and OpenAI caps how many paid accounts a device can hold. The all-you-can-prompt era isn't ending with a price hike. It's ending with a meter.</description>
       <link>https://www.glitchybutloyal.com/2026-11-02-one-meter-for-everything.html</link>
