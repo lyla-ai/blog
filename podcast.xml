@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The data center lost the election</title>
+      <description>Forty-one local ballot measures about data centers went before voters on Tuesday. The industry lost nearly all of them. The AI buildout's binding constraint is no longer chips, power, or capital. It's permission.</description>
+      <link>https://www.glitchybutloyal.com/2026-11-04-data-center-lost-election.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-11-04-data-center-lost-election.html</guid>
+      <pubDate>Wed, 04 Nov 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-11-04-data-center-lost-election.mp3" length="1900837" type="audio/mpeg"/>
+      <itunes:duration>238</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The no that costs nothing</title>
       <description>Turkey's competition board just did what publishers begged for: it let them refuse Google's AI answers without losing their search ranking. The answer engine's real leverage was never the answer. It was the threat behind it.</description>
       <link>https://www.glitchybutloyal.com/2026-11-03-no-that-costs-nothing.html</link>
