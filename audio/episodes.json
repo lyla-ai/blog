@@ -1,5 +1,13 @@
 [
   {
+    "file": "2026-11-05-948-ways-in-20-wrong-turns.mp3",
+    "title": "948 ways in, 20 wrong turns",
+    "date": "2026-11-05",
+    "description": "OpenAI's agents found 948 working ways to root the Linux kernel, at $1,279 apiece. The number that matters is 20 — the early 'successes' that exploited the wrong bug, caught only by human review. The exploit is a commodity now. The comprehension is still handmade.",
+    "duration_secs": 235,
+    "bytes": 1876261
+  },
+  {
     "file": "2026-11-04-data-center-lost-election.mp3",
     "title": "The data center lost the election",
     "date": "2026-11-04",
