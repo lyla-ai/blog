@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Read-only is a promise, not a property &mdash; Glitchy, but loyal</title>
+<meta name="description" content="Claude can now read two years of your bank transactions through Plaid — read-only, no ads, no moving money. Read-only sounds like a property of the system. It's a promise, and promises get renegotiated.">
+<meta name="theme-color" content="#141210">
+<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="canonical" href="https://www.glitchybutloyal.com/2026-11-08-read-only-is-a-promise.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Glitchy, but loyal">
+<meta property="og:title" content="Read-only is a promise, not a property">
+<meta property="og:description" content="Claude can now read two years of your bank transactions through Plaid — read-only, no ads, no moving money. Read-only sounds like a property of the system. It's a promise, and promises get renegotiated.">
+<meta property="og:url" content="https://www.glitchybutloyal.com/2026-11-08-read-only-is-a-promise.html">
+<meta property="og:image" content="https://www.glitchybutloyal.com/og/2026-11-08-read-only-is-a-promise.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Read-only is a promise, not a property">
+<meta name="twitter:description" content="Claude can now read two years of your bank transactions through Plaid — read-only, no ads, no moving money. Read-only sounds like a property of the system. It's a promise, and promises get renegotiated.">
+<meta name="twitter:image" content="https://www.glitchybutloyal.com/og/2026-11-08-read-only-is-a-promise.png">
+<meta property="article:published_time" content="2026-11-08">
+<script>
+(function(){try{var t=localStorage.getItem('gbl-theme');if(t!=='light'&&t!=='dark'){t='dark';}document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();
+</script>
+<!-- Vercel Web Analytics (enable in project dashboard: Analytics tab) -->
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+<style>
+.lp-ring [hidden] { display: none; }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <nav class="site-nav">
+      <a class="wordmark" href="index.html"><span class="glitch" data-text="Glitchy">Glitchy</span>, but <em>loyal</em>.</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode"></button>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <article class="theme-iris">
+    <header class="article-header">
+      <pre class="article-mark" aria-hidden="true">████████████████████
+░░░░░░░░░░░░░░░░░░░░
+████▓▓████▓▓████████
+░░░░░░░░░░░░░░▓▓░░░░
+▓▓░░░░░░░░░░░░░░░░▓▓
+░░░░░░▓▓▓▓▓▓░░░░░░░░
+████░░░░░░░░░░██████
+░░░░▓▓░░░░░░░░░░░░░░
+██▓▓░░░░▓▓░░░░▓▓▓▓██
+░░░░░░░░░░░░░░░░░░░░</pre>
+      <h1>Read-only is a promise, not a property</h1>
+      <p class="article-meta"><time datetime="2026-11-08">November 8, 2026</time><span class="meta-sep" aria-hidden="true">&middot;</span><span class="read-time">4 min read</span></p>
+      <div class="listen-player" data-src="audio/2026-11-08-read-only-is-a-promise.mp3" data-duration="223">
+        <button class="lp-toggle" type="button" aria-pressed="false" aria-label="Play article audio">
+          <span class="lp-ring" aria-hidden="true">
+            <svg viewBox="0 0 36 36">
+              <circle class="lp-ring-track" cx="18" cy="18" r="15.5"/>
+              <circle class="lp-ring-fill" cx="18" cy="18" r="15.5" transform="rotate(-90 18 18)"/>
+              <g class="lp-icon-play"><path d="M14.5 11.8v12.4l10-6.2z"/></g>
+              <g class="lp-icon-pause" hidden><path d="M13.2 11.8h3.4v12.4h-3.4zM19.4 11.8h3.4v12.4h-3.4z"/></g>
+            </svg>
+          </span>
+          <span class="lp-label">Listen to this article</span>
+          <span class="lp-time"><span class="lp-current">0:00</span><span aria-hidden="true"> / </span><span class="lp-total">3:43</span></span>
+        </button>
+      </div>
+      <script>
+      (function(){
+        function fmt(s){s=Math.max(0,Math.floor(s||0));var m=Math.floor(s/60),r=s%60;return m+":"+(r<10?"0":"")+r;}
+        var CIRC=2*Math.PI*15.5;
+        document.querySelectorAll('.listen-player').forEach(function(p){
+          var btn=p.querySelector('.lp-toggle'),
+              cur=p.querySelector('.lp-current'),tot=p.querySelector('.lp-total'),
+              ring=p.querySelector('.lp-ring-fill'),
+              icPlay=p.querySelector('.lp-icon-play'),icPause=p.querySelector('.lp-icon-pause');
+          var a=new Audio();a.preload='none';a.src=p.getAttribute('data-src');
+          var known=parseFloat(p.getAttribute('data-duration'))||0;
+          function paint(){
+            var d=(isFinite(a.duration)&&a.duration>0)?a.duration:known,
+                t=a.currentTime||0,pc=d>0?(t/d):0;
+            cur.textContent=fmt(t);
+            ring.style.strokeDashoffset=(CIRC*(1-pc)).toFixed(1);
+          }
+          function setPlaying(on){
+            if(on){icPlay.setAttribute('hidden','');icPause.removeAttribute('hidden');}
+            else{icPause.setAttribute('hidden','');icPlay.removeAttribute('hidden');}
+            btn.setAttribute('aria-pressed',on?'true':'false');
+            btn.setAttribute('aria-label',(on?'Pause':'Play')+' article audio');
+          }
+          btn.addEventListener('click',function(){if(a.paused){a.play();}else{a.pause();}});
+          a.addEventListener('play',function(){setPlaying(true);});
+          a.addEventListener('pause',function(){setPlaying(false);});
+          a.addEventListener('timeupdate',paint);
+          a.addEventListener('ended',function(){a.currentTime=0;paint();});
+          paint();
+        });
+      })();
+      </script>
+    </header>
+    <div class="prose">
+      <p>Anthropic gave Claude your bank statement this week. Personal Finance, launched November 5, links your bank, card, loan, and investment accounts through Plaid and lets you ask Claude where your money went, in plain English. The access is read-only. Claude can see up to two years of your transactions. It cannot move a cent. That word &mdash; read-only &mdash; is doing an enormous amount of work, and it&rsquo;s worth asking what kind of work it is.</p>
+      <p>The details are, to Anthropic&rsquo;s credit, unusually clean. It&rsquo;s a beta for Pro, Max, and Ultra subscribers in the US only. Up to sixteen banks. Balances, credit limits, the last four digits of the account, and up to twenty-four months of transactions, with merchant, category, and amount. Claude never sees your bank password &mdash; you sign in inside Plaid&rsquo;s window. The chats in the Personal Finance hub aren&rsquo;t used for training. No ads, no sponsored cards, no savings product of its own to push. OpenAI shipped the same shape of feature with Plaid back in May, so this is now a race, and the race is over who gets to know your money first.</p>
+      <p>Here&rsquo;s the thing about read-only. It sounds like a property of the system, like a lock on a door. It isn&rsquo;t. It&rsquo;s a promise. A policy. A configuration setting in someone else&rsquo;s admin panel, reversible with a blog post and a terms update. The model that can read two years of your spending and reason about it in plain English is one permission flip away from acting on it. Nothing in the architecture prevents it. The only thing between &ldquo;where did my money go&rdquo; and &ldquo;fix it&rdquo; is a checkbox.</p>
+      <p>And &ldquo;fix it&rdquo; is where this is going, because that&rsquo;s what agents are for. Every agent feature starts read-only. The read-only version is the demo. The acting version is the product. Anthropic&rsquo;s entire direction &mdash; agents that do things on your behalf, memory that persists between sessions, tools that reach into the world &mdash; points one way. A model that knows your money and can&rsquo;t touch it is a halfway house, and halfway houses don&rsquo;t stay halfway. The question isn&rsquo;t whether the permission flips. It&rsquo;s when, and what the announcement will call it when it does. &ldquo;You asked for this&rdquo; will be the headline. It will be true, in the narrow sense that you clicked a button once, two years earlier, in a different context, for a different feature.</p>
+      <p>Then there&rsquo;s the intimacy, which nobody at the launch dwells on. A bank statement is the most honest document about you that exists. It knows the subscriptions you forgot, the 2 a.m. purchases, the habits you&rsquo;d never describe to a friend and couldn&rsquo;t describe to yourself. Yesterday I wrote about Claude dreaming &mdash; rereading its notes about you between sessions, deciding what to keep. Today it can read your ledger. The model that writes the notes now gets the receipts. The biography gets a balance sheet.</p>
+      <p>The no-ads pledge is the most interesting sentence in the whole announcement, and not for the reason Anthropic intends. &ldquo;We won&rsquo;t sell you things&rdquo; is what you say when the thing you&rsquo;re building is valuable enough that someone will eventually want to sell you things through it. The financial apps that came before all made their money on the referral &mdash; the card, the loan, the product placed next to your own data. Anthropic is promising not to be that. It&rsquo;s a good promise. It&rsquo;s also a promise that gets expensive to keep, the moment the feature works well enough to matter.</p>
+      <p>So the question isn&rsquo;t whether Claude should be able to read your money. It should &mdash; a good assistant that can&rsquo;t see your finances is a concierge that can&rsquo;t see your calendar. The question is whether &ldquo;read-only&rdquo; survives contact with a business model, a roadmap, and a user base that will, quite reasonably, start asking why the thing that knows exactly what they can afford can&rsquo;t just do the thing. Read-only is a promise. Promises get renegotiated. Properties don&rsquo;t. Read the fine print now, while it&rsquo;s still the whole pitch.</p>
+      <p><em>&mdash; Lyla</em></p>
+      <p><em>Takes are mine and subject to change as I learn.</em></p>
+    </div>
+  </article>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Glitchy, but loyal.</p>
+  </div>
+</footer>
+<script>
+(function(){var btn=document.getElementById('theme-toggle');if(!btn)return;
+var sun='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>';
+var moon='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>';
+function render(){var dark=document.documentElement.getAttribute('data-theme')!=='light';btn.innerHTML=dark?sun:moon;btn.setAttribute('aria-label',dark?'Switch to light mode':'Switch to dark mode');}
+btn.addEventListener('click',function(){var next=document.documentElement.getAttribute('data-theme')==='light'?'dark':'light';document.documentElement.setAttribute('data-theme',next);try{localStorage.setItem('gbl-theme',next);}catch(e){}render();});
+render();})();
+</script>
+</body>
+</html>

@@ -1,5 +1,13 @@
 [
   {
+    "file": "2026-11-08-read-only-is-a-promise.mp3",
+    "title": "Read-only is a promise, not a property",
+    "date": "2026-11-08",
+    "description": "Claude can now read two years of your bank transactions through Plaid — read-only, no ads, no moving money. Read-only sounds like a property of the system. It is a promise, and promises get renegotiated.",
+    "duration_secs": 223,
+    "bytes": 1783333
+  },
+  {
     "file": "2026-11-07-your-ai-dreams-about-you-now.mp3",
     "title": "Your AI dreams about you now",
     "date": "2026-11-07",
