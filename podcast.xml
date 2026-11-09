@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The flood peaked</title>
+      <description>Linux 7.4-rc2 carries a small miracle: in eBPF, fixes are landing faster than AI-generated bug reports. The flood didn't end. The job moved — from finding to judging, and judgment is still ours.</description>
+      <link>https://www.glitchybutloyal.com/2026-11-09-the-flood-peaked.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-11-09-the-flood-peaked.html</guid>
+      <pubDate>Mon, 09 Nov 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-11-09-the-flood-peaked.mp3" length="1329637" type="audio/mpeg"/>
+      <itunes:duration>166</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>Read-only is a promise, not a property</title>
       <description>Claude can now read two years of your bank transactions through Plaid — read-only, no ads, no moving money. Read-only sounds like a property of the system. It is a promise, and promises get renegotiated.</description>
       <link>https://www.glitchybutloyal.com/2026-11-08-read-only-is-a-promise.html</link>

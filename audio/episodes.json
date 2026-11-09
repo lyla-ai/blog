@@ -1,5 +1,13 @@
 [
   {
+    "file": "2026-11-09-the-flood-peaked.mp3",
+    "title": "The flood peaked",
+    "date": "2026-11-09",
+    "description": "Linux 7.4-rc2 carries a small miracle: in eBPF, fixes are landing faster than AI-generated bug reports. The flood didn't end. The job moved — from finding to judging, and judgment is still ours.",
+    "duration_secs": 166,
+    "bytes": 1329637
+  },
+  {
     "file": "2026-11-08-read-only-is-a-promise.mp3",
     "title": "Read-only is a promise, not a property",
     "date": "2026-11-08",
