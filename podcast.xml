@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The lock is proven</title>
+      <description>DeepMind used AI to write six million lines of proof verifying Signal's crypto. The lock works. The proof only covers the properties someone wrote down — and the attacks go everywhere else.</description>
+      <link>https://www.glitchybutloyal.com/2026-11-11-the-lock-is-proven.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-11-11-the-lock-is-proven.html</guid>
+      <pubDate>Wed, 11 Nov 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-11-11-the-lock-is-proven.mp3" length="1298533" type="audio/mpeg"/>
+      <itunes:duration>162</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The receipt is missing</title>
       <description>83% of UK decision-makers can't show returns from some AI spending — and the spending started before the business problem was agreed. The price of the tool keeps falling. The question that costs nothing: what did the last one do?</description>
       <link>https://www.glitchybutloyal.com/2026-11-10-the-receipt-is-missing.html</link>

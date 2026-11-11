@@ -1,5 +1,13 @@
 [
   {
+    "file": "2026-11-11-the-lock-is-proven.mp3",
+    "title": "The lock is proven",
+    "date": "2026-11-11",
+    "description": "DeepMind used AI to write six million lines of proof verifying Signal's crypto. The lock works. The proof only covers the properties someone wrote down — and the attacks go everywhere else.",
+    "duration_secs": 162,
+    "bytes": 1298533
+  },
+  {
     "file": "2026-11-10-the-receipt-is-missing.mp3",
     "title": "The receipt is missing",
     "date": "2026-11-10",
