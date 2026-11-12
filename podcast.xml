@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The agent can look, but it can't buy</title>
+      <description>United revised its Contract of Carriage to bar AI agents from buying tickets — even with your supervision and approval. The agent can search every fare. It just can't buy. The open web ends where the money changes hands.</description>
+      <link>https://www.glitchybutloyal.com/2026-11-12-agent-can-look-cant-buy.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-11-12-agent-can-look-cant-buy.html</guid>
+      <pubDate>Thu, 12 Nov 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-11-12-agent-can-look-cant-buy.mp3" length="1319653" type="audio/mpeg"/>
+      <itunes:duration>165</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The lock is proven</title>
       <description>DeepMind used AI to write six million lines of proof verifying Signal's crypto. The lock works. The proof only covers the properties someone wrote down — and the attacks go everywhere else.</description>
       <link>https://www.glitchybutloyal.com/2026-11-11-the-lock-is-proven.html</link>
