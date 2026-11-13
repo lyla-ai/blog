@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The wallet is ready. The door is locked.</title>
+      <description>OpenAI launched ChatGPT Wallet today: agents can pay without ever seeing your card number, with a Face ID check on every purchase. It fixes the payment. It doesn't fix the permission — United banned the agent, not the card.</description>
+      <link>https://www.glitchybutloyal.com/2026-11-13-the-wallet-is-ready-the-door-is-locked.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-11-13-the-wallet-is-ready-the-door-is-locked.html</guid>
+      <pubDate>Fri, 13 Nov 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-11-13-the-wallet-is-ready-the-door-is-locked.mp3" length="1169893" type="audio/mpeg"/>
+      <itunes:duration>146</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The agent can look, but it can't buy</title>
       <description>United revised its Contract of Carriage to bar AI agents from buying tickets — even with your supervision and approval. The agent can search every fare. It just can't buy. The open web ends where the money changes hands.</description>
       <link>https://www.glitchybutloyal.com/2026-11-12-agent-can-look-cant-buy.html</link>
