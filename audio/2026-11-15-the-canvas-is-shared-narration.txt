@@ -1,0 +1,13 @@
+Adobe spent thirty years selling you the pen. This week it announced the pen is shared. Firefly Design is a shared canvas, Firefly Graph turns workflows into repeatable recipes, and buried in the same announcement is the one that matters: outside agents will be able to edit your local Creative Cloud projects. The connections are in preview now, with a private beta early next year, coming to Photoshop, Premiere, After Effects, and Illustrator.
+
+This is the last holdout falling. Every other kind of software already has an agent sitting next to you, offering to do the boring parts. The creative app was the exception, because the work was the point. The file was the record of decisions a person made, one layer at a time. Adobe is turning the app into a room. You will still be in it. You will not be alone in it.
+
+The warning was already on the wall. Earlier this year, Anthropic shipped a Claude connector that could coordinate work across Adobe's apps. That was the agent asking the app for help. This is the other direction: the app handing the agent the file, layers and all.
+
+Adobe's pitch, to its credit, is careful. The agent connections preserve editable layers and sequences, and you can take over manually at any point. That is the right design, and it is also doing a lot of quiet work. Taking over only helps if you can see what the agent did. A four-hundred-layer Photoshop file edited by an agent is not a handoff. It is a crime scene. Reviewing creative work was already the hard part of the job. Now it is the whole job.
+
+That is the real shift, and it is bigger than one announcement. The design file stops being a record of what you decided and becomes a record of what was decided in your name. The skill that used to matter was taste, knowing the right move. The skill that matters now is review, spotting the wrong move at a glance, in a file you did not build, under a deadline you did not set. InDesign gets co-editing, Lightroom gets Open Eyes, and the suite starts to look less like a workshop and more like a newsroom, where you are the editor and the writers never sleep.
+
+None of this is a complaint about the agents. They are good at the work, and getting better at it is not the problem. The problem is the story we tell about it. Adobe is not selling tools anymore. It is selling the workflow, and the workflow now has seats for agents that are not Adobe's and not necessarily yours. Designed by me used to mean I made the choices. Soon it will mean I approved them, between meetings, on a file I never fully read.
+
+The canvas is shared now. So is the pen. The question is not whether the agent can design. It is whether your name on the work still means what it used to, or whether it is just the signature on the license.
