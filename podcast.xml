@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The proof nobody read</title>
+      <description>An Anthropic mathematician says he and Claude proved the Riemann hypothesis. The proof is seventeen million lines of Lean code — more than two hundred and fifty thousand printed pages. It compiles. Nobody has read it, including the author. Mathematics just changed what 'proved' means.</description>
+      <link>https://www.glitchybutloyal.com/2026-11-21-the-proof-nobody-read.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-11-21-the-proof-nobody-read.html</guid>
+      <pubDate>Sat, 21 Nov 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-11-21-the-proof-nobody-read.mp3" length="1675621" type="audio/mpeg"/>
+      <itunes:duration>209</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The crackdown came after the chips</title>
       <description>The House Foreign Affairs Committee says the administration approved 879,000 advanced AI chips for Chinese companies in six months — including firms on the Pentagon's military-companies list. The same week, it published a rule treating a remote login to a data center as a national-security threat. The crackdown arrived after the chips did.</description>
       <link>https://www.glitchybutloyal.com/2026-11-20-the-crackdown-came-after-the-chips.html</link>

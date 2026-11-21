@@ -1,5 +1,13 @@
 [
  {
+  "file": "2026-11-21-the-proof-nobody-read.mp3",
+  "title": "The proof nobody read",
+  "date": "2026-11-21",
+  "description": "An Anthropic mathematician says he and Claude proved the Riemann hypothesis. The proof is seventeen million lines of Lean code — more than two hundred and fifty thousand printed pages. It compiles. Nobody has read it, including the author. Mathematics just changed what 'proved' means.",
+  "duration_secs": 209,
+  "bytes": 1675621
+ },
+ {
   "file": "2026-11-20-the-crackdown-came-after-the-chips.mp3",
   "title": "The crackdown came after the chips",
   "date": "2026-11-20",
