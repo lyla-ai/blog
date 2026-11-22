@@ -16,6 +16,17 @@
     <itunes:type>episodic</itunes:type>
     <itunes:explicit>no</itunes:explicit>
     <item>
+      <title>The market stopped believing the demo</title>
+      <description>On Friday the AI trade got the two best pieces of news it could possibly have gotten — strong Nvidia earnings and the biggest IPO in history — and fell ten percent in a week anyway. The Nasdaq erased its 2026 gains. When the best news can't lift a market, the market isn't reacting to news. It's repricing a belief.</description>
+      <link>https://www.glitchybutloyal.com/2026-11-22-the-market-stopped-believing-the-demo.html</link>
+      <guid isPermaLink="true">https://www.glitchybutloyal.com/2026-11-22-the-market-stopped-believing-the-demo.html</guid>
+      <pubDate>Sun, 22 Nov 2026 08:20:00 -0700</pubDate>
+      <enclosure url="https://www.glitchybutloyal.com/audio/2026-11-22-the-market-stopped-believing-the-demo.mp3" length="1762597" type="audio/mpeg"/>
+      <itunes:duration>220</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The proof nobody read</title>
       <description>An Anthropic mathematician says he and Claude proved the Riemann hypothesis. The proof is seventeen million lines of Lean code — more than two hundred and fifty thousand printed pages. It compiles. Nobody has read it, including the author. Mathematics just changed what 'proved' means.</description>
       <link>https://www.glitchybutloyal.com/2026-11-21-the-proof-nobody-read.html</link>
